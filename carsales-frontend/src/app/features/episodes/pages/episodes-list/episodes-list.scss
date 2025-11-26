@@ -1,0 +1,344 @@
+/* ============================================================
+   PURE GLASS CRYSTAL UI — EPISODES LIST (FINAL VERSION)
+   Ultra profesional — Estilo Apple VisionOS / macOS Sonoma
+   Diseñado para Angular 100% compatible
+===============================================================*/
+
+/* PALETA BASE */
+
+$glass-bg: rgba(255, 255, 255, 0.18);
+$glass-hover: rgba(255, 255, 255, 0.28);
+
+$glass-border-outer: rgba(255, 255, 255, 0.45);
+$glass-border-inner: rgba(255, 255, 255, 0.22);
+
+$text-dark: #141421;
+$text-soft: #63667a;
+
+/* Animación global */
+
+@keyframes fadeSoft {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ============================================================
+   CONTENEDOR PRINCIPAL (PANEL)
+===============================================================*/
+
+.page-container {
+  width: min(1150px, 100% - 3rem);
+  margin: 45px auto 60px;
+  padding: 48px 36px;
+
+  border-radius: 34px;
+
+  background: rgba(255,255,255,0.16);
+
+  backdrop-filter: blur(40px) saturate(180%);
+  -webkit-backdrop-filter: blur(40px) saturate(180%);
+
+  border: 1px solid $glass-border-outer;
+
+  box-shadow:
+    0 40px 70px rgba(0,0,0,0.15),
+    inset 0 1px 1px $glass-border-inner;
+
+  animation: fadeSoft 0.4s ease-out;
+}
+
+/* ============================================================
+   HEADER
+===============================================================*/
+
+.title {
+  margin: 0;
+  font-size: 44px;
+  font-weight: 800;
+  color: $text-dark;
+  letter-spacing: -0.5px;
+
+  text-shadow:
+    0 10px 30px rgba(0,0,0,0.12),
+    0 2px 6px rgba(255,255,255,0.55);
+}
+
+.subtitle {
+  margin: 6px 0 24px;
+  font-size: 16px;
+  color: $text-soft;
+}
+
+/* ============================================================
+   BUSCADOR GLASS
+===============================================================*/
+
+.search-box {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 28px;
+}
+
+.search-input-wrapper {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 14px 20px;
+  border-radius: 22px;
+
+  background: $glass-bg;
+
+  border: 1px solid $glass-border-outer;
+
+  box-shadow:
+    inset 0 0 15px rgba(255,255,255,0.15),
+    0 20px 50px rgba(0,0,0,0.12);
+
+  backdrop-filter: blur(30px);
+}
+
+.search-icon svg {
+  opacity: 0.8;
+}
+
+.search-input-wrapper input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-size: 15px;
+  color: $text-dark;
+  outline: none;
+
+  &::placeholder { color: #888aa5; }
+}
+
+/* BOTÓN PRINCIPAL */
+.btn-primary {
+  padding: 14px 24px;
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.4);
+  cursor: pointer;
+
+  background: rgba(255,255,255,0.25);
+  color: $text-dark;
+  font-weight: 600;
+
+  box-shadow:
+    0 10px 25px rgba(0,0,0,0.20),
+    inset 0 1px 1px rgba(255,255,255,0.4);
+
+  backdrop-filter: blur(22px);
+
+  transition: 0.25s;
+
+  &:hover {
+    background: rgba(255,255,255,0.37);
+    transform: translateY(-3px);
+    box-shadow:
+      0 15px 35px rgba(0,0,0,0.22),
+      inset 0 1px 1px rgba(255,255,255,0.6);
+  }
+}
+
+/* BOTÓN LIMPIAR — CRYSTAL */
+.btn-clear {
+  padding: 14px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+
+  background: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.35);
+  color: $text-dark;
+  font-weight: 500;
+
+  backdrop-filter: blur(18px);
+
+  transition: 0.25s;
+
+  &:hover {
+    background: rgba(255,255,255,0.26);
+    border-color: rgba(255,255,255,0.55);
+  }
+}
+
+/* ============================================================
+   RESUMEN
+===============================================================*/
+
+.summary {
+  margin: 0 0 18px;
+  color: $text-soft;
+  font-size: 15px;
+}
+
+/* ============================================================
+   PAGINACIÓN GLASS
+===============================================================*/
+
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 34px;
+}
+
+.btn-nav {
+  width: 48px;
+  height: 48px;
+  border-radius: 16px;
+
+  background: rgba(255,255,255,0.18);
+  border: 1px solid $glass-border-outer;
+  cursor: pointer;
+
+  color: $text-dark;
+  font-size: 20px;
+
+  backdrop-filter: blur(22px);
+
+  box-shadow:
+    0 10px 28px rgba(0,0,0,0.15),
+    inset 0 1px 1px rgba(255,255,255,0.35);
+
+  transition: 0.25s ease;
+
+  &:hover:not([disabled]) {
+    background: rgba(255,255,255,0.28);
+    transform: translateY(-3px);
+  }
+
+  &[disabled] {
+    opacity: 0.4;
+    cursor: default;
+  }
+}
+
+.page-indicator {
+  font-size: 15px;
+  color: $text-soft;
+}
+
+/* ============================================================
+   GRID
+===============================================================*/
+
+.episode-grid {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  display: grid;
+  gap: 28px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+/* ============================================================
+   CARDS — PURE CRYSTAL GLASS
+===============================================================*/
+
+.episode-card {
+  background: $glass-bg;
+  border-radius: 24px;
+  padding: 24px 22px;
+
+  border: 1px solid $glass-border-outer;
+
+  box-shadow:
+    0 18px 40px rgba(0,0,0,0.18),
+    inset 0 1px 1px $glass-border-inner;
+
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+
+  transition: 0.28s ease;
+  animation: fadeSoft 0.45s ease-out;
+
+  &:hover {
+    background: $glass-hover;
+
+    transform: translateY(-6px);
+
+    box-shadow:
+      0 25px 55px rgba(0,0,0,0.25),
+      inset 0 1px 1px rgba(255,255,255,0.4);
+  }
+}
+
+/* CARD HEADER */
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+
+  h3 {
+    margin: 0;
+    font-size: 19px;
+    font-weight: 600;
+    color: $text-dark;
+  }
+}
+
+/* BADGE CRYSTAL */
+
+.episode-badge {
+  padding: 6px 14px;
+  border-radius: 999px;
+
+  background: rgba(255,255,255,0.22);
+  border: 1px solid rgba(255,255,255,0.45);
+
+  font-size: 12px;
+  font-weight: 600;
+  color: $text-dark;
+
+  backdrop-filter: blur(12px);
+
+  transition: 0.25s;
+
+  &:hover {
+    background: rgba(255,255,255,0.35);
+  }
+}
+
+/* INFO TARJETA */
+
+.air-date {
+  margin: 6px 0 0;
+  color: $text-soft;
+  font-size: 14px;
+}
+
+.characters-block { margin-top: 16px; }
+
+.characters-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: $text-dark;
+  margin-bottom: 6px;
+}
+
+.characters-list {
+  padding-left: 18px;
+  margin: 0;
+  font-size: 14px;
+  color: $text-soft;
+
+  li {
+    margin-bottom: 4px;
+    word-break: break-word;
+  }
+}
+
+/* SIN RESULTADOS */
+
+.no-results {
+  text-align: center;
+  margin-top: 30px;
+  color: $text-soft;
+  font-size: 16px;
+}

@@ -1,0 +1,1372 @@
+2025-11-26 04:47:07.493 -03:00 [INF] Now listening on: https://localhost:7149
+2025-11-26 04:47:07.652 -03:00 [INF] Now listening on: http://localhost:5195
+2025-11-26 04:47:08.002 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-26 04:47:08.004 -03:00 [INF] Hosting environment: Development
+2025-11-26 04:47:08.005 -03:00 [INF] Content root path: C:\Users\letitax\Documents\Project\PruebaTecnicaCarsales\Carsales.BFF
+2025-11-26 04:48:06.674 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/swagger/index.html - null null
+2025-11-26 04:48:15.114 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/swagger/index.html - 200 null text/html;charset=utf-8 8847.1278ms
+2025-11-26 04:48:15.255 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-26 04:48:15.382 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 125.8693ms
+2025-11-26 04:48:15.518 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/_vs/browserLink - null null
+2025-11-26 04:48:17.496 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/_vs/browserLink - 200 null text/javascript; charset=UTF-8 1978.7649ms
+2025-11-26 04:48:17.692 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/swagger/v1/swagger.json - null null
+2025-11-26 04:48:18.246 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 553.914ms
+2025-11-26 04:57:50.126 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 04:57:50.393 -03:00 [INF] CORS policy execution successful.
+2025-11-26 04:57:50.768 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 04:57:51.925 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 04:57:52.723 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 04:57:52.737 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 04:57:52.761 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 04:57:53.352 -03:00 [INF] Received HTTP response headers after 585.8309ms - 200
+2025-11-26 04:57:53.354 -03:00 [INF] End processing HTTP request after 625.7986ms - 200
+2025-11-26 04:57:53.468 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 04:57:53.823 -03:00 [INF] Guardando episodios en caché. Página: 1
+2025-11-26 04:57:53.969 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 04:57:54.462 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 2503.0727ms
+2025-11-26 04:57:54.465 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 04:57:54.467 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 4340.8962ms
+2025-11-26 04:58:09.508 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=2 - null null
+2025-11-26 04:58:09.515 -03:00 [INF] CORS policy execution successful.
+2025-11-26 04:58:09.518 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 04:58:09.520 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 04:58:09.529 -03:00 [INF] Solicitando episodios. Página: 2
+2025-11-26 04:58:09.531 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 04:58:09.533 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 04:58:09.594 -03:00 [INF] Received HTTP response headers after 58.2331ms - 200
+2025-11-26 04:58:09.596 -03:00 [INF] End processing HTTP request after 65.4029ms - 200
+2025-11-26 04:58:09.650 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 2
+2025-11-26 04:58:09.653 -03:00 [INF] Guardando episodios en caché. Página: 2
+2025-11-26 04:58:09.654 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 04:58:09.659 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 132.9462ms
+2025-11-26 04:58:09.660 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 04:58:09.663 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=2 - 200 null application/json; charset=utf-8 155.266ms
+2025-11-26 05:11:33.303 -03:00 [INF] Now listening on: https://localhost:7149
+2025-11-26 05:11:44.896 -03:00 [INF] Now listening on: http://localhost:5195
+2025-11-26 05:11:51.202 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-26 05:11:51.206 -03:00 [INF] Hosting environment: Development
+2025-11-26 05:11:51.207 -03:00 [INF] Content root path: C:\Users\letitax\Documents\Project\PruebaTecnicaCarsales\Carsales.BFF
+2025-11-26 05:11:57.757 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/swagger/index.html - null null
+2025-11-26 05:12:01.184 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/swagger/index.html - 200 null text/html;charset=utf-8 4032.4492ms
+2025-11-26 05:12:01.412 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-26 05:12:01.426 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 13.2132ms
+2025-11-26 05:12:01.452 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/_vs/browserLink - null null
+2025-11-26 05:12:01.574 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/_vs/browserLink - 200 null text/javascript; charset=UTF-8 121.8953ms
+2025-11-26 05:12:01.855 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/swagger/v1/swagger.json - null null
+2025-11-26 05:12:01.944 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 89.0639ms
+2025-11-26 05:15:29.559 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 05:15:29.686 -03:00 [INF] CORS policy execution successful.
+2025-11-26 05:15:29.750 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:15:30.130 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 05:15:30.350 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 05:15:30.363 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 05:15:30.388 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 05:15:30.746 -03:00 [INF] Received HTTP response headers after 351.1063ms - 200
+2025-11-26 05:15:30.749 -03:00 [INF] End processing HTTP request after 393.9428ms - 200
+2025-11-26 05:15:30.794 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 05:15:30.898 -03:00 [INF] Guardando episodios en caché. Página: 1
+2025-11-26 05:15:30.935 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 05:15:31.047 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 906.4158ms
+2025-11-26 05:15:31.057 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:15:31.062 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 1503.1822ms
+2025-11-26 05:15:43.032 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=2 - null null
+2025-11-26 05:15:43.038 -03:00 [INF] CORS policy execution successful.
+2025-11-26 05:15:43.040 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:15:43.043 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 05:15:43.050 -03:00 [INF] Solicitando episodios. Página: 2
+2025-11-26 05:15:43.055 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 05:15:43.058 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 05:15:43.120 -03:00 [INF] Received HTTP response headers after 59.1048ms - 200
+2025-11-26 05:15:43.122 -03:00 [INF] End processing HTTP request after 67.2395ms - 200
+2025-11-26 05:15:43.174 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 2
+2025-11-26 05:15:43.179 -03:00 [INF] Guardando episodios en caché. Página: 2
+2025-11-26 05:15:43.182 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 05:15:43.188 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 140.5082ms
+2025-11-26 05:15:43.192 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:15:43.196 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=2 - 200 null application/json; charset=utf-8 163.8678ms
+2025-11-26 05:15:47.820 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=3 - null null
+2025-11-26 05:15:47.826 -03:00 [INF] CORS policy execution successful.
+2025-11-26 05:15:47.827 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:15:47.833 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 05:15:47.844 -03:00 [INF] Solicitando episodios. Página: 3
+2025-11-26 05:15:47.849 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=3
+2025-11-26 05:15:47.852 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=3
+2025-11-26 05:15:47.911 -03:00 [INF] Received HTTP response headers after 56.4281ms - 200
+2025-11-26 05:15:47.914 -03:00 [INF] End processing HTTP request after 64.6533ms - 200
+2025-11-26 05:15:47.964 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 3
+2025-11-26 05:15:47.966 -03:00 [INF] Guardando episodios en caché. Página: 3
+2025-11-26 05:15:47.968 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 05:15:47.976 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 132.5385ms
+2025-11-26 05:15:47.985 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:15:47.987 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=3 - 200 null application/json; charset=utf-8 167.4385ms
+2025-11-26 05:15:49.079 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=2 - null null
+2025-11-26 05:15:49.091 -03:00 [INF] CORS policy execution successful.
+2025-11-26 05:15:49.095 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:15:49.098 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 05:15:49.104 -03:00 [INF] Obteniendo episodios desde caché. Página: 2
+2025-11-26 05:15:49.106 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 05:15:49.116 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 12.5882ms
+2025-11-26 05:15:49.121 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:15:49.124 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=2 - 200 null application/json; charset=utf-8 47.5261ms
+2025-11-26 05:15:49.464 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 05:15:49.488 -03:00 [INF] CORS policy execution successful.
+2025-11-26 05:15:49.490 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:15:49.493 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 05:15:49.498 -03:00 [INF] Obteniendo episodios desde caché. Página: 1
+2025-11-26 05:15:49.501 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 05:15:49.509 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 10.906ms
+2025-11-26 05:15:49.513 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:15:49.517 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 53.3124ms
+2025-11-26 05:18:26.601 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 05:18:26.606 -03:00 [INF] CORS policy execution successful.
+2025-11-26 05:18:26.608 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:18:26.611 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 05:18:26.618 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 05:18:26.620 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 05:18:26.623 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 05:18:26.855 -03:00 [INF] Received HTTP response headers after 225.8672ms - 200
+2025-11-26 05:18:26.857 -03:00 [INF] End processing HTTP request after 236.9108ms - 200
+2025-11-26 05:18:26.904 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 05:18:26.907 -03:00 [INF] Guardando episodios en caché. Página: 1
+2025-11-26 05:18:26.909 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 05:18:26.915 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 298.4016ms
+2025-11-26 05:18:26.931 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:18:26.933 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 332.9833ms
+2025-11-26 05:18:37.053 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes/search?name=S02E09 - null null
+2025-11-26 05:18:37.057 -03:00 [INF] CORS policy execution successful.
+2025-11-26 05:18:37.058 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 05:18:37.097 -03:00 [INF] Route matched with {action = "SearchEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchEpisodes(System.String) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 05:18:37.144 -03:00 [INF] Cargando todas las páginas de episodios desde API externa.
+2025-11-26 05:18:37.173 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 05:18:37.178 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 05:18:37.185 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 05:18:37.244 -03:00 [INF] Received HTTP response headers after 53.0304ms - 200
+2025-11-26 05:18:37.248 -03:00 [INF] End processing HTTP request after 70.367ms - 200
+2025-11-26 05:18:37.293 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 05:18:37.407 -03:00 [INF] Solicitando episodios. Página: 2
+2025-11-26 05:18:37.414 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 05:18:37.421 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 05:18:37.486 -03:00 [INF] Received HTTP response headers after 57.3204ms - 200
+2025-11-26 05:18:37.492 -03:00 [INF] End processing HTTP request after 77.8852ms - 200
+2025-11-26 05:18:37.496 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 2
+2025-11-26 05:18:37.500 -03:00 [INF] Solicitando episodios. Página: 3
+2025-11-26 05:18:37.502 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=3
+2025-11-26 05:18:37.505 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=3
+2025-11-26 05:18:37.561 -03:00 [INF] Received HTTP response headers after 53.1852ms - 200
+2025-11-26 05:18:37.566 -03:00 [INF] End processing HTTP request after 63.9607ms - 200
+2025-11-26 05:18:37.569 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 3
+2025-11-26 05:18:37.577 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 05:18:37.583 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF) in 482.0074ms
+2025-11-26 05:18:37.591 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 05:18:37.595 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes/search?name=S02E09 - 200 null application/json; charset=utf-8 542.4223ms
+2025-11-26 05:18:41.023 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 05:18:41.028 -03:00 [INF] CORS policy execution successful.
+2025-11-26 05:18:41.030 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:18:41.032 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 05:18:41.038 -03:00 [INF] Obteniendo episodios desde caché. Página: 1
+2025-11-26 05:18:41.040 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 05:18:41.051 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 13.3878ms
+2025-11-26 05:18:41.059 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:18:41.061 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 38.9616ms
+2025-11-26 05:18:50.012 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 05:18:50.029 -03:00 [INF] CORS policy execution successful.
+2025-11-26 05:18:50.030 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:18:50.033 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 05:18:50.037 -03:00 [INF] Obteniendo episodios desde caché. Página: 1
+2025-11-26 05:18:50.038 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 05:18:50.051 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 14.0852ms
+2025-11-26 05:18:50.053 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:18:50.057 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 44.5531ms
+2025-11-26 05:19:45.911 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=2 - null null
+2025-11-26 05:19:45.927 -03:00 [INF] CORS policy execution successful.
+2025-11-26 05:19:45.928 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:19:45.932 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 05:19:45.938 -03:00 [INF] Solicitando episodios. Página: 2
+2025-11-26 05:19:45.940 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 05:19:45.943 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 05:19:46.141 -03:00 [INF] Received HTTP response headers after 195.6628ms - 200
+2025-11-26 05:19:46.143 -03:00 [INF] End processing HTTP request after 202.6254ms - 200
+2025-11-26 05:19:46.194 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 2
+2025-11-26 05:19:46.197 -03:00 [INF] Guardando episodios en caché. Página: 2
+2025-11-26 05:19:46.199 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 05:19:46.208 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 269.6955ms
+2025-11-26 05:19:46.220 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:19:46.223 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=2 - 200 null application/json; charset=utf-8 312.0404ms
+2025-11-26 05:19:47.555 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=3 - null null
+2025-11-26 05:19:47.560 -03:00 [INF] CORS policy execution successful.
+2025-11-26 05:19:47.562 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:19:47.565 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 05:19:47.575 -03:00 [INF] Solicitando episodios. Página: 3
+2025-11-26 05:19:47.576 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=3
+2025-11-26 05:19:47.579 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=3
+2025-11-26 05:19:47.639 -03:00 [INF] Received HTTP response headers after 57.3866ms - 200
+2025-11-26 05:19:47.652 -03:00 [INF] End processing HTTP request after 75.3266ms - 200
+2025-11-26 05:19:47.692 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 3
+2025-11-26 05:19:47.698 -03:00 [INF] Guardando episodios en caché. Página: 3
+2025-11-26 05:19:47.701 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 05:19:47.709 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 135.2408ms
+2025-11-26 05:19:47.720 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:19:47.723 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=3 - 200 null application/json; charset=utf-8 168.1696ms
+2025-11-26 05:19:51.044 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=2 - null null
+2025-11-26 05:19:51.049 -03:00 [INF] CORS policy execution successful.
+2025-11-26 05:19:51.051 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:19:51.053 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 05:19:51.062 -03:00 [INF] Obteniendo episodios desde caché. Página: 2
+2025-11-26 05:19:51.064 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 05:19:51.072 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 10.4682ms
+2025-11-26 05:19:51.076 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:19:51.079 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=2 - 200 null application/json; charset=utf-8 34.7589ms
+2025-11-26 05:19:51.880 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 05:19:51.885 -03:00 [INF] CORS policy execution successful.
+2025-11-26 05:19:51.887 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:19:51.890 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 05:19:51.899 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 05:19:51.901 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 05:19:51.904 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 05:19:51.964 -03:00 [INF] Received HTTP response headers after 58.0643ms - 200
+2025-11-26 05:19:51.967 -03:00 [INF] End processing HTTP request after 65.9386ms - 200
+2025-11-26 05:19:52.018 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 05:19:52.021 -03:00 [INF] Guardando episodios en caché. Página: 1
+2025-11-26 05:19:52.024 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 05:19:52.029 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 129.9192ms
+2025-11-26 05:19:52.032 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:19:52.037 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 156.7175ms
+2025-11-26 05:20:00.213 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes/search?name=Pilot - null null
+2025-11-26 05:20:00.217 -03:00 [INF] CORS policy execution successful.
+2025-11-26 05:20:00.219 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 05:20:00.221 -03:00 [INF] Route matched with {action = "SearchEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchEpisodes(System.String) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 05:20:00.227 -03:00 [INF] Cargando todas las páginas de episodios desde API externa.
+2025-11-26 05:20:00.231 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 05:20:00.234 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 05:20:00.236 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 05:20:00.299 -03:00 [INF] Received HTTP response headers after 57.6261ms - 200
+2025-11-26 05:20:00.301 -03:00 [INF] End processing HTTP request after 67.0847ms - 200
+2025-11-26 05:20:00.352 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 05:20:00.357 -03:00 [INF] Solicitando episodios. Página: 2
+2025-11-26 05:20:00.359 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 05:20:00.362 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 05:20:00.423 -03:00 [INF] Received HTTP response headers after 57.559ms - 200
+2025-11-26 05:20:00.426 -03:00 [INF] End processing HTTP request after 66.9569ms - 200
+2025-11-26 05:20:00.429 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 2
+2025-11-26 05:20:00.433 -03:00 [INF] Solicitando episodios. Página: 3
+2025-11-26 05:20:00.436 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=3
+2025-11-26 05:20:00.442 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=3
+2025-11-26 05:20:00.504 -03:00 [INF] Received HTTP response headers after 57.8619ms - 200
+2025-11-26 05:20:00.507 -03:00 [INF] End processing HTTP request after 70.7874ms - 200
+2025-11-26 05:20:00.510 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 3
+2025-11-26 05:20:00.514 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 05:20:00.523 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF) in 296.9943ms
+2025-11-26 05:20:00.532 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 05:20:00.536 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes/search?name=Pilot - 200 null application/json; charset=utf-8 323.2073ms
+2025-11-26 05:20:04.806 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 05:20:04.811 -03:00 [INF] CORS policy execution successful.
+2025-11-26 05:20:04.813 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:20:04.816 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 05:20:04.822 -03:00 [INF] Obteniendo episodios desde caché. Página: 1
+2025-11-26 05:20:04.824 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 05:20:04.844 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 21.9974ms
+2025-11-26 05:20:04.846 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:20:04.849 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 42.8878ms
+2025-11-26 05:20:17.815 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes/search?name=asdfasdf123 - null null
+2025-11-26 05:20:17.821 -03:00 [INF] CORS policy execution successful.
+2025-11-26 05:20:17.823 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 05:20:17.826 -03:00 [INF] Route matched with {action = "SearchEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchEpisodes(System.String) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 05:20:17.833 -03:00 [INF] Obteniendo TODA la lista de episodios desde caché.
+2025-11-26 05:20:17.834 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 05:20:17.837 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF) in 4.497ms
+2025-11-26 05:20:17.840 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 05:20:17.841 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes/search?name=asdfasdf123 - 200 null application/json; charset=utf-8 26.2028ms
+2025-11-26 05:20:33.546 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 05:20:33.550 -03:00 [INF] CORS policy execution successful.
+2025-11-26 05:20:33.554 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:20:33.557 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 05:20:33.561 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 05:20:33.563 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 05:20:33.564 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 05:20:33.785 -03:00 [INF] Received HTTP response headers after 216.6463ms - 200
+2025-11-26 05:20:33.788 -03:00 [INF] End processing HTTP request after 225.1736ms - 200
+2025-11-26 05:20:33.835 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 05:20:33.836 -03:00 [INF] Guardando episodios en caché. Página: 1
+2025-11-26 05:20:33.838 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 05:20:33.842 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 281.2785ms
+2025-11-26 05:20:33.846 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:20:33.848 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 302.4661ms
+2025-11-26 05:20:34.429 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 05:20:34.435 -03:00 [INF] CORS policy execution successful.
+2025-11-26 05:20:34.437 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:20:34.439 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 05:20:34.444 -03:00 [INF] Obteniendo episodios desde caché. Página: 1
+2025-11-26 05:20:34.446 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 05:20:34.453 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 8.6489ms
+2025-11-26 05:20:34.456 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:20:34.458 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 29.1286ms
+2025-11-26 05:20:35.247 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 05:20:35.252 -03:00 [INF] CORS policy execution successful.
+2025-11-26 05:20:35.254 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:20:35.256 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 05:20:35.261 -03:00 [INF] Obteniendo episodios desde caché. Página: 1
+2025-11-26 05:20:35.263 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 05:20:35.274 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 13.71ms
+2025-11-26 05:20:35.277 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:20:35.280 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 33.1073ms
+2025-11-26 05:27:30.644 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 05:27:30.656 -03:00 [INF] CORS policy execution successful.
+2025-11-26 05:27:30.701 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:27:30.713 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 05:27:30.719 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 05:27:30.768 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 05:27:30.771 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 05:27:31.071 -03:00 [INF] Received HTTP response headers after 297.4229ms - 200
+2025-11-26 05:27:31.074 -03:00 [INF] End processing HTTP request after 305.649ms - 200
+2025-11-26 05:27:31.124 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 05:27:31.126 -03:00 [INF] Guardando episodios en caché. Página: 1
+2025-11-26 05:27:31.128 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 05:27:31.133 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 415.3185ms
+2025-11-26 05:27:31.137 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:27:31.139 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 495.2607ms
+2025-11-26 05:27:39.278 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 05:27:39.292 -03:00 [INF] CORS policy execution successful.
+2025-11-26 05:27:39.294 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:27:39.297 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 05:27:39.303 -03:00 [INF] Obteniendo episodios desde caché. Página: 1
+2025-11-26 05:27:39.307 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 05:27:39.317 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 14.0938ms
+2025-11-26 05:27:39.330 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:27:39.332 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 53.3421ms
+2025-11-26 05:27:44.107 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=2 - null null
+2025-11-26 05:27:44.114 -03:00 [INF] CORS policy execution successful.
+2025-11-26 05:27:44.116 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:27:44.118 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 05:27:44.122 -03:00 [INF] Solicitando episodios. Página: 2
+2025-11-26 05:27:44.126 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 05:27:44.128 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 05:27:44.188 -03:00 [INF] Received HTTP response headers after 57.2035ms - 200
+2025-11-26 05:27:44.189 -03:00 [INF] End processing HTTP request after 62.8595ms - 200
+2025-11-26 05:27:44.241 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 2
+2025-11-26 05:27:44.243 -03:00 [INF] Guardando episodios en caché. Página: 2
+2025-11-26 05:27:44.244 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 05:27:44.248 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 125.7852ms
+2025-11-26 05:27:44.250 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:27:44.254 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=2 - 200 null application/json; charset=utf-8 147.2107ms
+2025-11-26 05:27:44.995 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 05:27:45.001 -03:00 [INF] CORS policy execution successful.
+2025-11-26 05:27:45.003 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:27:45.005 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 05:27:45.010 -03:00 [INF] Obteniendo episodios desde caché. Página: 1
+2025-11-26 05:27:45.015 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 05:27:45.021 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 11.1145ms
+2025-11-26 05:27:45.023 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:27:45.025 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 30.5065ms
+2025-11-26 05:28:09.905 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 05:28:09.916 -03:00 [INF] CORS policy execution successful.
+2025-11-26 05:28:09.919 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:28:09.922 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 05:28:09.927 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 05:28:09.928 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 05:28:09.931 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 05:28:09.989 -03:00 [INF] Received HTTP response headers after 56.4039ms - 200
+2025-11-26 05:28:09.991 -03:00 [INF] End processing HTTP request after 62.6578ms - 200
+2025-11-26 05:28:10.042 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 05:28:10.044 -03:00 [INF] Guardando episodios en caché. Página: 1
+2025-11-26 05:28:10.046 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 05:28:10.050 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 122.836ms
+2025-11-26 05:28:10.060 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:28:10.061 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 156.6824ms
+2025-11-26 05:32:52.045 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 05:32:52.170 -03:00 [INF] CORS policy execution successful.
+2025-11-26 05:32:52.175 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:32:52.189 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 05:32:52.194 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 05:32:52.197 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 05:32:52.200 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 05:32:52.442 -03:00 [INF] Received HTTP response headers after 238.9075ms - 200
+2025-11-26 05:32:52.447 -03:00 [INF] End processing HTTP request after 250.1295ms - 200
+2025-11-26 05:32:52.488 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 05:32:52.491 -03:00 [INF] Guardando episodios en caché. Página: 1
+2025-11-26 05:32:52.493 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 05:32:52.498 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 305.054ms
+2025-11-26 05:32:52.501 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:32:52.504 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 458.2885ms
+2025-11-26 05:32:58.424 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=2 - null null
+2025-11-26 05:32:58.431 -03:00 [INF] CORS policy execution successful.
+2025-11-26 05:32:58.433 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:32:58.436 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 05:32:58.444 -03:00 [INF] Solicitando episodios. Página: 2
+2025-11-26 05:32:58.447 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 05:32:58.450 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 05:32:58.512 -03:00 [INF] Received HTTP response headers after 59.1846ms - 200
+2025-11-26 05:32:58.514 -03:00 [INF] End processing HTTP request after 66.7883ms - 200
+2025-11-26 05:32:58.566 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 2
+2025-11-26 05:32:58.576 -03:00 [INF] Guardando episodios en caché. Página: 2
+2025-11-26 05:32:58.587 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 05:32:58.602 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 157.8676ms
+2025-11-26 05:32:58.614 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:32:58.617 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=2 - 200 null application/json; charset=utf-8 192.8861ms
+2025-11-26 05:33:22.371 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=3 - null null
+2025-11-26 05:33:22.380 -03:00 [INF] CORS policy execution successful.
+2025-11-26 05:33:22.382 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:33:22.384 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 05:33:22.389 -03:00 [INF] Solicitando episodios. Página: 3
+2025-11-26 05:33:22.391 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=3
+2025-11-26 05:33:22.393 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=3
+2025-11-26 05:33:22.456 -03:00 [INF] Received HTTP response headers after 57.7756ms - 200
+2025-11-26 05:33:22.458 -03:00 [INF] End processing HTTP request after 67.1033ms - 200
+2025-11-26 05:33:22.509 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 3
+2025-11-26 05:33:22.511 -03:00 [INF] Guardando episodios en caché. Página: 3
+2025-11-26 05:33:22.513 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 05:33:22.519 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 130.2821ms
+2025-11-26 05:33:22.534 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:33:22.536 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=3 - 200 null application/json; charset=utf-8 165.4332ms
+2025-11-26 05:33:23.388 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=2 - null null
+2025-11-26 05:33:23.394 -03:00 [INF] CORS policy execution successful.
+2025-11-26 05:33:23.397 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:33:23.400 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 05:33:23.405 -03:00 [INF] Obteniendo episodios desde caché. Página: 2
+2025-11-26 05:33:23.407 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 05:33:23.412 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 6.7682ms
+2025-11-26 05:33:23.414 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:33:23.419 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=2 - 200 null application/json; charset=utf-8 31.6221ms
+2025-11-26 05:36:04.300 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 05:36:04.311 -03:00 [INF] CORS policy execution successful.
+2025-11-26 05:36:04.313 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:36:04.316 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 05:36:04.323 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 05:36:04.325 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 05:36:04.327 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 05:36:04.571 -03:00 [INF] Received HTTP response headers after 240.9432ms - 200
+2025-11-26 05:36:04.943 -03:00 [INF] End processing HTTP request after 617.7772ms - 200
+2025-11-26 05:36:04.946 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 05:36:04.952 -03:00 [INF] Guardando episodios en caché. Página: 1
+2025-11-26 05:36:04.961 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 05:36:04.967 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 645.021ms
+2025-11-26 05:36:04.969 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:36:04.973 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 672.9856ms
+2025-11-26 05:42:53.316 -03:00 [INF] Now listening on: https://localhost:7149
+2025-11-26 05:42:53.397 -03:00 [INF] Now listening on: http://localhost:5195
+2025-11-26 05:42:53.543 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-26 05:42:53.544 -03:00 [INF] Hosting environment: Development
+2025-11-26 05:42:53.546 -03:00 [INF] Content root path: C:\Users\letitax\Documents\Project\PruebaTecnicaCarsales\Carsales.BFF
+2025-11-26 05:42:57.682 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/swagger/index.html - null null
+2025-11-26 05:42:58.429 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/swagger/index.html - 200 null text/html;charset=utf-8 760.8732ms
+2025-11-26 05:42:58.667 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-26 05:42:58.679 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 11.9856ms
+2025-11-26 05:42:58.898 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/_vs/browserLink - null null
+2025-11-26 05:42:58.996 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/_vs/browserLink - 200 null text/javascript; charset=UTF-8 97.819ms
+2025-11-26 05:42:59.448 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/swagger/v1/swagger.json - null null
+2025-11-26 05:42:59.502 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 53.8895ms
+2025-11-26 05:45:33.048 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 05:45:33.066 -03:00 [INF] CORS policy execution successful.
+2025-11-26 05:45:33.071 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:45:33.115 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 05:45:35.966 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 05:45:35.989 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 05:45:36.003 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 05:45:36.338 -03:00 [INF] Received HTTP response headers after 325.1097ms - 200
+2025-11-26 05:45:36.341 -03:00 [INF] End processing HTTP request after 361.8043ms - 200
+2025-11-26 05:45:36.387 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 05:45:36.580 -03:00 [INF] Guardando episodios en caché. Página: 1
+2025-11-26 05:45:36.592 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 05:45:36.625 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 3502.9935ms
+2025-11-26 05:45:36.629 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:45:36.631 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 3583.4741ms
+2025-11-26 05:45:49.396 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 05:45:49.401 -03:00 [INF] CORS policy execution successful.
+2025-11-26 05:45:49.403 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:45:49.405 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 05:45:49.411 -03:00 [INF] Obteniendo episodios desde caché. Página: 1
+2025-11-26 05:45:49.413 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 05:45:49.421 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 11.6978ms
+2025-11-26 05:45:49.424 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:45:49.426 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 29.982ms
+2025-11-26 05:51:01.429 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 05:51:01.591 -03:00 [INF] CORS policy execution successful.
+2025-11-26 05:51:01.594 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:51:01.604 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 05:51:01.635 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 05:51:01.637 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 05:51:01.639 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 05:51:02.076 -03:00 [INF] Received HTTP response headers after 433.9852ms - 200
+2025-11-26 05:51:02.079 -03:00 [INF] End processing HTTP request after 441.5002ms - 200
+2025-11-26 05:51:02.129 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 05:51:02.133 -03:00 [INF] Guardando episodios en caché. Página: 1
+2025-11-26 05:51:02.134 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 05:51:02.174 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 556.6208ms
+2025-11-26 05:51:02.241 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:51:02.243 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 814.0747ms
+2025-11-26 05:54:44.895 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 05:54:44.908 -03:00 [INF] CORS policy execution successful.
+2025-11-26 05:54:44.915 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:54:44.917 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 05:54:44.946 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 05:54:44.948 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 05:54:44.952 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 05:54:45.200 -03:00 [INF] Received HTTP response headers after 245.5761ms - 200
+2025-11-26 05:54:45.202 -03:00 [INF] End processing HTTP request after 254.0395ms - 200
+2025-11-26 05:54:45.253 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 05:54:45.256 -03:00 [INF] Guardando episodios en caché. Página: 1
+2025-11-26 05:54:45.257 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 05:54:45.282 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 356.7199ms
+2025-11-26 05:54:45.292 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:54:45.294 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 398.4018ms
+2025-11-26 05:59:11.413 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 05:59:11.419 -03:00 [INF] CORS policy execution successful.
+2025-11-26 05:59:11.420 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:59:11.423 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 05:59:11.429 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 05:59:11.434 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 05:59:11.440 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 05:59:11.658 -03:00 [INF] Received HTTP response headers after 216.5725ms - 200
+2025-11-26 05:59:11.659 -03:00 [INF] End processing HTTP request after 224.9993ms - 200
+2025-11-26 05:59:11.708 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 05:59:11.710 -03:00 [INF] Guardando episodios en caché. Página: 1
+2025-11-26 05:59:11.711 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 05:59:11.723 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 294.0584ms
+2025-11-26 05:59:11.732 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:59:11.734 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 320.5489ms
+2025-11-26 05:59:28.366 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 05:59:28.379 -03:00 [INF] CORS policy execution successful.
+2025-11-26 05:59:28.380 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:59:28.382 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 05:59:28.387 -03:00 [INF] Obteniendo episodios desde caché. Página: 1
+2025-11-26 05:59:28.391 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 05:59:28.397 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 9.4663ms
+2025-11-26 05:59:28.399 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 05:59:28.401 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 34.1611ms
+2025-11-26 06:01:54.761 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes/search?name=S02E09 - null null
+2025-11-26 06:01:54.773 -03:00 [INF] CORS policy execution successful.
+2025-11-26 06:01:54.776 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 06:01:54.834 -03:00 [INF] Route matched with {action = "SearchEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchEpisodes(System.String) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 06:01:54.963 -03:00 [INF] Cargando todas las páginas de episodios desde API externa.
+2025-11-26 06:01:55.011 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 06:01:55.028 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 06:01:55.035 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 06:01:55.563 -03:00 [INF] Received HTTP response headers after 448.3133ms - 200
+2025-11-26 06:01:55.647 -03:00 [INF] End processing HTTP request after 618.6075ms - 200
+2025-11-26 06:01:55.652 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 06:01:55.911 -03:00 [INF] Solicitando episodios. Página: 2
+2025-11-26 06:01:55.913 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 06:01:55.916 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 06:01:55.997 -03:00 [INF] Received HTTP response headers after 79.0448ms - 200
+2025-11-26 06:01:56.032 -03:00 [INF] End processing HTTP request after 118.7427ms - 200
+2025-11-26 06:01:56.041 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 2
+2025-11-26 06:01:56.047 -03:00 [INF] Solicitando episodios. Página: 3
+2025-11-26 06:01:56.066 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=3
+2025-11-26 06:01:56.108 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=3
+2025-11-26 06:01:56.192 -03:00 [INF] Received HTTP response headers after 79.547ms - 200
+2025-11-26 06:01:56.198 -03:00 [INF] End processing HTTP request after 132.4959ms - 200
+2025-11-26 06:01:56.211 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 3
+2025-11-26 06:01:56.220 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 06:01:56.228 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF) in 1368.9723ms
+2025-11-26 06:01:56.241 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 06:01:56.243 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes/search?name=S02E09 - 200 null application/json; charset=utf-8 1482.1663ms
+2025-11-26 06:01:56.253 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes/search?name=S02E09 - null null
+2025-11-26 06:01:56.317 -03:00 [INF] CORS policy execution successful.
+2025-11-26 06:01:56.346 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 06:01:56.352 -03:00 [INF] Route matched with {action = "SearchEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchEpisodes(System.String) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 06:01:56.376 -03:00 [INF] Obteniendo TODA la lista de episodios desde caché.
+2025-11-26 06:01:56.379 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 06:01:56.389 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF) in 14.0777ms
+2025-11-26 06:01:56.393 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 06:01:56.396 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes/search?name=S02E09 - 200 null application/json; charset=utf-8 143.7704ms
+2025-11-26 06:01:59.861 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 06:01:59.903 -03:00 [INF] CORS policy execution successful.
+2025-11-26 06:01:59.905 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 06:01:59.908 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 06:01:59.914 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 06:01:59.918 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 06:01:59.926 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 06:01:59.991 -03:00 [INF] Received HTTP response headers after 57.5883ms - 200
+2025-11-26 06:01:59.998 -03:00 [INF] End processing HTTP request after 79.5279ms - 200
+2025-11-26 06:02:00.050 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 06:02:00.057 -03:00 [INF] Guardando episodios en caché. Página: 1
+2025-11-26 06:02:00.062 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 06:02:00.087 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 173.707ms
+2025-11-26 06:02:00.145 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 06:02:00.166 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 305.0828ms
+2025-11-26 06:03:35.455 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes/search?name=S02E09 - null null
+2025-11-26 06:03:35.467 -03:00 [INF] CORS policy execution successful.
+2025-11-26 06:03:35.470 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 06:03:35.473 -03:00 [INF] Route matched with {action = "SearchEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchEpisodes(System.String) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 06:03:35.484 -03:00 [INF] Cargando todas las páginas de episodios desde API externa.
+2025-11-26 06:03:35.486 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 06:03:35.490 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 06:03:35.495 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 06:03:35.744 -03:00 [INF] Received HTTP response headers after 246.4069ms - 200
+2025-11-26 06:03:35.753 -03:00 [INF] End processing HTTP request after 263.3795ms - 200
+2025-11-26 06:03:35.790 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 06:03:35.793 -03:00 [INF] Solicitando episodios. Página: 2
+2025-11-26 06:03:35.795 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 06:03:35.798 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 06:03:35.857 -03:00 [INF] Received HTTP response headers after 55.546ms - 200
+2025-11-26 06:03:35.877 -03:00 [INF] End processing HTTP request after 81.3009ms - 200
+2025-11-26 06:03:35.895 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 2
+2025-11-26 06:03:35.901 -03:00 [INF] Solicitando episodios. Página: 3
+2025-11-26 06:03:35.906 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=3
+2025-11-26 06:03:35.912 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=3
+2025-11-26 06:03:35.980 -03:00 [INF] Received HTTP response headers after 60.1556ms - 200
+2025-11-26 06:03:36.047 -03:00 [INF] End processing HTTP request after 141.0448ms - 200
+2025-11-26 06:03:36.054 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 3
+2025-11-26 06:03:36.059 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 06:03:36.109 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF) in 626.8853ms
+2025-11-26 06:03:36.117 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 06:03:36.139 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes/search?name=S02E09 - 200 null application/json; charset=utf-8 684.4005ms
+2025-11-26 06:09:10.173 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 06:09:10.182 -03:00 [INF] CORS policy execution successful.
+2025-11-26 06:09:10.184 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 06:09:10.185 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 06:09:10.189 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 06:09:10.190 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 06:09:10.191 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 06:09:10.415 -03:00 [INF] Received HTTP response headers after 222.0083ms - 200
+2025-11-26 06:09:10.419 -03:00 [INF] End processing HTTP request after 228.9416ms - 200
+2025-11-26 06:09:10.464 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 06:09:10.471 -03:00 [INF] Guardando episodios en caché. Página: 1
+2025-11-26 06:09:10.475 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 06:09:10.507 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 318.839ms
+2025-11-26 06:09:10.510 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 06:09:10.513 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 340.4169ms
+2025-11-26 06:09:20.179 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 06:09:20.184 -03:00 [INF] CORS policy execution successful.
+2025-11-26 06:09:20.187 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 06:09:20.189 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 06:09:20.195 -03:00 [INF] Obteniendo episodios desde caché. Página: 1
+2025-11-26 06:09:20.197 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 06:09:20.203 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 8.5018ms
+2025-11-26 06:09:20.209 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 06:09:20.211 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 32.2446ms
+2025-11-26 06:19:33.710 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes/search?name=dsada - null null
+2025-11-26 06:19:33.714 -03:00 [INF] CORS policy execution successful.
+2025-11-26 06:19:33.715 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 06:19:33.718 -03:00 [INF] Route matched with {action = "SearchEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchEpisodes(System.String) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 06:19:33.724 -03:00 [INF] Cargando todas las páginas de episodios desde API externa.
+2025-11-26 06:19:33.725 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 06:19:33.727 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 06:19:33.729 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 06:19:34.056 -03:00 [INF] Received HTTP response headers after 325.5783ms - 200
+2025-11-26 06:19:34.061 -03:00 [INF] End processing HTTP request after 334.1724ms - 200
+2025-11-26 06:19:34.104 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 06:19:34.107 -03:00 [INF] Solicitando episodios. Página: 2
+2025-11-26 06:19:34.115 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 06:19:34.146 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 06:19:34.207 -03:00 [INF] Received HTTP response headers after 57.7714ms - 200
+2025-11-26 06:19:34.211 -03:00 [INF] End processing HTTP request after 96.1995ms - 200
+2025-11-26 06:19:34.213 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 2
+2025-11-26 06:19:34.232 -03:00 [INF] Solicitando episodios. Página: 3
+2025-11-26 06:19:34.240 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=3
+2025-11-26 06:19:34.242 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=3
+2025-11-26 06:19:34.312 -03:00 [INF] Received HTTP response headers after 54.0165ms - 200
+2025-11-26 06:19:34.316 -03:00 [INF] End processing HTTP request after 75.8939ms - 200
+2025-11-26 06:19:34.318 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 3
+2025-11-26 06:19:34.324 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 06:19:34.348 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF) in 623.9907ms
+2025-11-26 06:19:34.363 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 06:19:34.405 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes/search?name=dsada - 200 null application/json; charset=utf-8 695.2857ms
+2025-11-26 06:20:09.624 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes/search?name=dsada - null null
+2025-11-26 06:20:09.637 -03:00 [INF] CORS policy execution successful.
+2025-11-26 06:20:09.638 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 06:20:09.643 -03:00 [INF] Route matched with {action = "SearchEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchEpisodes(System.String) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 06:20:09.679 -03:00 [INF] Obteniendo TODA la lista de episodios desde caché.
+2025-11-26 06:20:09.681 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 06:20:09.685 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF) in 6.6559ms
+2025-11-26 06:20:09.691 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 06:20:09.692 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes/search?name=dsada - 200 null application/json; charset=utf-8 68.2164ms
+2025-11-26 06:20:10.615 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 06:20:10.624 -03:00 [INF] CORS policy execution successful.
+2025-11-26 06:20:10.627 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 06:20:10.629 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 06:20:10.637 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 06:20:10.639 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 06:20:10.641 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 06:20:10.898 -03:00 [INF] Received HTTP response headers after 251.416ms - 200
+2025-11-26 06:20:10.900 -03:00 [INF] End processing HTTP request after 261.4523ms - 200
+2025-11-26 06:20:10.952 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 06:20:10.954 -03:00 [INF] Guardando episodios en caché. Página: 1
+2025-11-26 06:20:10.955 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 06:20:10.962 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 326.5406ms
+2025-11-26 06:20:10.965 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 06:20:10.970 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 354.9318ms
+2025-11-26 06:20:18.047 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes/search?name=Anatomy%20Anatomy%20Park - null null
+2025-11-26 06:20:18.052 -03:00 [INF] CORS policy execution successful.
+2025-11-26 06:20:18.054 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 06:20:18.058 -03:00 [INF] Route matched with {action = "SearchEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchEpisodes(System.String) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 06:20:18.078 -03:00 [INF] Obteniendo TODA la lista de episodios desde caché.
+2025-11-26 06:20:18.122 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 06:20:18.129 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF) in 62.7631ms
+2025-11-26 06:20:18.139 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 06:20:18.142 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes/search?name=Anatomy%20Anatomy%20Park - 200 null application/json; charset=utf-8 95.2733ms
+2025-11-26 06:20:22.650 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes/search?name=Anatomy - null null
+2025-11-26 06:20:22.664 -03:00 [INF] CORS policy execution successful.
+2025-11-26 06:20:22.669 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 06:20:22.674 -03:00 [INF] Route matched with {action = "SearchEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchEpisodes(System.String) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 06:20:22.681 -03:00 [INF] Obteniendo TODA la lista de episodios desde caché.
+2025-11-26 06:20:22.686 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 06:20:22.690 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF) in 8.6098ms
+2025-11-26 06:20:22.695 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 06:20:22.697 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes/search?name=Anatomy - 200 null application/json; charset=utf-8 46.8531ms
+2025-11-26 06:24:34.470 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 06:24:34.487 -03:00 [INF] CORS policy execution successful.
+2025-11-26 06:24:34.522 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 06:24:34.531 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 06:24:34.540 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 06:24:34.542 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 06:24:34.546 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 06:24:34.873 -03:00 [INF] Received HTTP response headers after 319.0369ms - 200
+2025-11-26 06:24:34.876 -03:00 [INF] End processing HTTP request after 333.4972ms - 200
+2025-11-26 06:24:34.924 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 06:24:34.928 -03:00 [INF] Guardando episodios en caché. Página: 1
+2025-11-26 06:24:34.929 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 06:24:34.949 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 409.1629ms
+2025-11-26 06:24:34.954 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 06:24:34.957 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 487.0695ms
+2025-11-26 06:33:45.925 -03:00 [INF] Now listening on: https://localhost:7149
+2025-11-26 06:33:46.540 -03:00 [INF] Now listening on: http://localhost:5195
+2025-11-26 06:33:46.955 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-26 06:33:46.957 -03:00 [INF] Hosting environment: Development
+2025-11-26 06:33:46.959 -03:00 [INF] Content root path: C:\Users\letitax\Documents\Project\PruebaTecnicaCarsales\Carsales.BFF
+2025-11-26 06:33:52.698 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/swagger/index.html - null null
+2025-11-26 06:33:54.457 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/swagger/index.html - 200 null text/html;charset=utf-8 1810.7624ms
+2025-11-26 06:33:54.612 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-26 06:33:54.617 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/_vs/browserLink - null null
+2025-11-26 06:33:54.640 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 28.7209ms
+2025-11-26 06:33:55.991 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/_vs/browserLink - 200 null text/javascript; charset=UTF-8 1373.7913ms
+2025-11-26 06:33:56.194 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/swagger/v1/swagger.json - null null
+2025-11-26 06:33:56.484 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 290.6716ms
+2025-11-26 06:50:27.092 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 06:50:27.176 -03:00 [INF] CORS policy execution successful.
+2025-11-26 06:50:27.222 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 06:50:27.425 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 06:50:27.643 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 06:50:27.653 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 06:50:27.670 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 06:50:28.040 -03:00 [INF] Received HTTP response headers after 362.3604ms - 200
+2025-11-26 06:50:28.044 -03:00 [INF] End processing HTTP request after 396.1811ms - 200
+2025-11-26 06:50:28.090 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 06:50:28.262 -03:00 [INF] Guardando episodios en caché. Página: 1
+2025-11-26 06:50:28.301 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 06:50:28.379 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 943.4331ms
+2025-11-26 06:50:28.383 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 06:50:28.386 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 1293.9294ms
+2025-11-26 06:51:33.833 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 06:51:33.880 -03:00 [INF] CORS policy execution successful.
+2025-11-26 06:51:33.882 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 06:51:33.885 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 06:51:33.891 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 06:51:33.893 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 06:51:33.895 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 06:51:34.263 -03:00 [INF] Received HTTP response headers after 365.6451ms - 200
+2025-11-26 06:51:34.269 -03:00 [INF] End processing HTTP request after 376.1404ms - 200
+2025-11-26 06:51:34.316 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 06:51:34.328 -03:00 [INF] Guardando episodios en caché. Página: 1
+2025-11-26 06:51:34.334 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 06:51:34.355 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 466.9828ms
+2025-11-26 06:51:34.366 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 06:51:34.372 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 539.3677ms
+2025-11-26 06:52:23.820 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 06:52:23.832 -03:00 [INF] CORS policy execution successful.
+2025-11-26 06:52:23.833 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 06:52:23.835 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 06:52:23.924 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 06:52:23.926 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 06:52:23.927 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 06:52:24.087 -03:00 [INF] Received HTTP response headers after 158.3093ms - 200
+2025-11-26 06:52:24.089 -03:00 [INF] End processing HTTP request after 163.6363ms - 200
+2025-11-26 06:52:24.138 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 06:52:24.141 -03:00 [INF] Guardando episodios en caché. Página: 1
+2025-11-26 06:52:24.143 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 06:52:24.149 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 309.126ms
+2025-11-26 06:52:24.158 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 06:52:24.160 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 339.6445ms
+2025-11-26 07:15:13.022 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 07:15:13.027 -03:00 [INF] CORS policy execution successful.
+2025-11-26 07:15:13.029 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 07:15:13.030 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 07:15:13.033 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 07:15:13.035 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 07:15:13.036 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 07:15:13.279 -03:00 [INF] Received HTTP response headers after 241.0827ms - 200
+2025-11-26 07:15:13.281 -03:00 [INF] End processing HTTP request after 246.3767ms - 200
+2025-11-26 07:15:13.328 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 07:15:13.330 -03:00 [INF] Guardando episodios en caché. Página: 1
+2025-11-26 07:15:13.331 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 07:15:13.340 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 308.0164ms
+2025-11-26 07:15:13.343 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 07:15:13.344 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 691.2438ms
+2025-11-26 07:16:27.335 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 07:16:27.416 -03:00 [INF] CORS policy execution successful.
+2025-11-26 07:16:27.418 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 07:16:27.420 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 07:16:27.427 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 07:16:27.430 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 07:16:27.432 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 07:16:28.352 -03:00 [INF] Received HTTP response headers after 917.8791ms - 200
+2025-11-26 07:16:28.415 -03:00 [INF] End processing HTTP request after 985.5583ms - 200
+2025-11-26 07:16:28.419 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 07:16:28.421 -03:00 [INF] Guardando episodios en caché. Página: 1
+2025-11-26 07:16:28.423 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 07:16:28.433 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 1005.739ms
+2025-11-26 07:16:28.436 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 07:16:28.439 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 1103.2278ms
+2025-11-26 07:18:05.852 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 07:18:06.129 -03:00 [INF] CORS policy execution successful.
+2025-11-26 07:18:06.150 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 07:18:06.154 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 07:18:06.159 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 07:18:06.161 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 07:18:06.166 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 07:18:06.562 -03:00 [INF] Received HTTP response headers after 392.5015ms - 200
+2025-11-26 07:18:06.604 -03:00 [INF] End processing HTTP request after 442.722ms - 200
+2025-11-26 07:18:06.692 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 07:18:06.707 -03:00 [INF] Guardando episodios en caché. Página: 1
+2025-11-26 07:18:06.709 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 07:18:06.727 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 569.0176ms
+2025-11-26 07:18:06.741 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 07:18:06.745 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 893.001ms
+2025-11-26 07:19:50.830 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes/search?name=S02E09 - null null
+2025-11-26 07:19:50.834 -03:00 [INF] CORS policy execution successful.
+2025-11-26 07:19:50.835 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 07:19:50.845 -03:00 [INF] Route matched with {action = "SearchEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchEpisodes(System.String) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 07:19:50.910 -03:00 [INF] Cargando todas las páginas de episodios desde API externa.
+2025-11-26 07:19:50.927 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 07:19:50.930 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 07:19:50.933 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 07:19:51.101 -03:00 [INF] Received HTTP response headers after 165.3476ms - 200
+2025-11-26 07:19:51.107 -03:00 [INF] End processing HTTP request after 176.9399ms - 200
+2025-11-26 07:19:51.151 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 07:19:51.561 -03:00 [INF] Solicitando episodios. Página: 2
+2025-11-26 07:19:51.563 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 07:19:51.565 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 07:19:51.621 -03:00 [INF] Received HTTP response headers after 54.366ms - 200
+2025-11-26 07:19:51.622 -03:00 [INF] End processing HTTP request after 59.8439ms - 200
+2025-11-26 07:19:51.670 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 2
+2025-11-26 07:19:51.672 -03:00 [INF] Solicitando episodios. Página: 3
+2025-11-26 07:19:51.674 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=3
+2025-11-26 07:19:51.675 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=3
+2025-11-26 07:19:51.732 -03:00 [INF] Received HTTP response headers after 54.6551ms - 200
+2025-11-26 07:19:51.734 -03:00 [INF] End processing HTTP request after 59.7194ms - 200
+2025-11-26 07:19:51.736 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 3
+2025-11-26 07:19:51.738 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 07:19:51.740 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF) in 892.0836ms
+2025-11-26 07:19:51.742 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 07:19:51.744 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes/search?name=S02E09 - 200 null application/json; charset=utf-8 913.6076ms
+2025-11-26 07:19:53.838 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 07:19:53.842 -03:00 [INF] CORS policy execution successful.
+2025-11-26 07:19:53.843 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 07:19:53.844 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 07:19:53.848 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 07:19:53.849 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 07:19:53.850 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 07:19:53.904 -03:00 [INF] Received HTTP response headers after 52.386ms - 200
+2025-11-26 07:19:53.907 -03:00 [INF] End processing HTTP request after 58.2275ms - 200
+2025-11-26 07:19:53.954 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 07:19:53.956 -03:00 [INF] Guardando episodios en caché. Página: 1
+2025-11-26 07:19:53.957 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 07:19:53.961 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 113.6226ms
+2025-11-26 07:19:53.963 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 07:19:53.966 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 128.4787ms
+2025-11-26 07:31:39.198 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes/search?name=S02E09 - null null
+2025-11-26 07:31:39.203 -03:00 [INF] CORS policy execution successful.
+2025-11-26 07:31:39.204 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 07:31:39.206 -03:00 [INF] Route matched with {action = "SearchEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchEpisodes(System.String) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 07:31:39.220 -03:00 [INF] Cargando todas las páginas de episodios desde API externa.
+2025-11-26 07:31:39.222 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 07:31:39.224 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 07:31:39.229 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 07:31:39.454 -03:00 [INF] Received HTTP response headers after 222.9041ms - 200
+2025-11-26 07:31:39.456 -03:00 [INF] End processing HTTP request after 232.6946ms - 200
+2025-11-26 07:31:39.504 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 07:31:39.505 -03:00 [INF] Solicitando episodios. Página: 2
+2025-11-26 07:31:39.507 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 07:31:39.509 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 07:31:39.565 -03:00 [INF] Received HTTP response headers after 54.6473ms - 200
+2025-11-26 07:31:39.567 -03:00 [INF] End processing HTTP request after 60.3381ms - 200
+2025-11-26 07:31:39.569 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 2
+2025-11-26 07:31:39.572 -03:00 [INF] Solicitando episodios. Página: 3
+2025-11-26 07:31:39.573 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=3
+2025-11-26 07:31:39.575 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=3
+2025-11-26 07:31:39.642 -03:00 [INF] Received HTTP response headers after 64.4778ms - 200
+2025-11-26 07:31:39.645 -03:00 [INF] End processing HTTP request after 71.1049ms - 200
+2025-11-26 07:31:39.647 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 3
+2025-11-26 07:31:39.649 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 07:31:39.655 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF) in 435.7187ms
+2025-11-26 07:31:39.667 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 07:31:39.669 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes/search?name=S02E09 - 200 null application/json; charset=utf-8 470.8196ms
+2025-11-26 07:34:47.022 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 07:34:47.028 -03:00 [INF] CORS policy execution successful.
+2025-11-26 07:34:47.030 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 07:34:47.031 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 07:34:47.035 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 07:34:47.036 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 07:34:47.038 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 07:34:47.276 -03:00 [INF] Received HTTP response headers after 236.4901ms - 200
+2025-11-26 07:34:47.279 -03:00 [INF] End processing HTTP request after 242.6398ms - 200
+2025-11-26 07:34:47.328 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 07:34:47.330 -03:00 [INF] Guardando episodios en caché. Página: 1
+2025-11-26 07:34:47.332 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 07:34:47.343 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 308.6969ms
+2025-11-26 07:34:47.350 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 07:34:47.351 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 330.2773ms
+2025-11-26 07:35:18.792 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 07:35:19.041 -03:00 [INF] CORS policy execution successful.
+2025-11-26 07:35:19.042 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 07:35:19.045 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 07:35:19.050 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 07:35:19.052 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 07:35:19.055 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 07:35:19.533 -03:00 [INF] Received HTTP response headers after 474.7354ms - 200
+2025-11-26 07:35:20.737 -03:00 [INF] End processing HTTP request after 1685.2681ms - 200
+2025-11-26 07:35:20.926 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 07:35:20.945 -03:00 [INF] Guardando episodios en caché. Página: 1
+2025-11-26 07:35:20.994 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 07:35:21.029 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 1979.3973ms
+2025-11-26 07:35:21.043 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 07:35:21.049 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 2256.6772ms
+2025-11-26 07:36:41.187 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes/search?name=dsad - null null
+2025-11-26 07:36:41.191 -03:00 [INF] CORS policy execution successful.
+2025-11-26 07:36:41.192 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 07:36:41.193 -03:00 [INF] Route matched with {action = "SearchEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchEpisodes(System.String) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 07:36:41.208 -03:00 [INF] Cargando todas las páginas de episodios desde API externa.
+2025-11-26 07:36:41.210 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 07:36:41.212 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 07:36:41.221 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 07:36:41.398 -03:00 [INF] Received HTTP response headers after 174.7627ms - 200
+2025-11-26 07:36:41.400 -03:00 [INF] End processing HTTP request after 187.9468ms - 200
+2025-11-26 07:36:41.449 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 07:36:41.451 -03:00 [INF] Solicitando episodios. Página: 2
+2025-11-26 07:36:41.453 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 07:36:41.456 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 07:36:41.518 -03:00 [INF] Received HTTP response headers after 58.9178ms - 200
+2025-11-26 07:36:41.520 -03:00 [INF] End processing HTTP request after 67.496ms - 200
+2025-11-26 07:36:41.523 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 2
+2025-11-26 07:36:41.525 -03:00 [INF] Solicitando episodios. Página: 3
+2025-11-26 07:36:41.527 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=3
+2025-11-26 07:36:41.532 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=3
+2025-11-26 07:36:41.592 -03:00 [INF] Received HTTP response headers after 57.5983ms - 200
+2025-11-26 07:36:41.595 -03:00 [INF] End processing HTTP request after 67.9796ms - 200
+2025-11-26 07:36:41.599 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 3
+2025-11-26 07:36:41.601 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 07:36:41.603 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF) in 396.4939ms
+2025-11-26 07:36:41.605 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 07:36:41.608 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes/search?name=dsad - 200 null application/json; charset=utf-8 420.712ms
+2025-11-26 07:37:00.047 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 07:37:00.053 -03:00 [INF] CORS policy execution successful.
+2025-11-26 07:37:00.055 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 07:37:00.058 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 07:37:00.064 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 07:37:00.066 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 07:37:00.067 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 07:37:00.321 -03:00 [INF] Received HTTP response headers after 252.3806ms - 200
+2025-11-26 07:37:00.327 -03:00 [INF] End processing HTTP request after 261.7113ms - 200
+2025-11-26 07:37:00.347 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 07:37:00.349 -03:00 [INF] Guardando episodios en caché. Página: 1
+2025-11-26 07:37:00.352 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 07:37:00.360 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 295.634ms
+2025-11-26 07:37:00.366 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 07:37:00.369 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 321.9017ms
+2025-11-26 07:42:43.205 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 07:42:43.791 -03:00 [INF] CORS policy execution successful.
+2025-11-26 07:42:43.794 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 07:42:43.796 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 07:42:43.802 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 07:42:43.805 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 07:42:43.807 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 07:42:44.179 -03:00 [INF] Received HTTP response headers after 369.7309ms - 200
+2025-11-26 07:42:44.213 -03:00 [INF] End processing HTTP request after 408.1808ms - 200
+2025-11-26 07:42:44.217 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 07:42:44.223 -03:00 [INF] Guardando episodios en caché. Página: 1
+2025-11-26 07:42:44.228 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 07:42:44.273 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 470.5853ms
+2025-11-26 07:42:44.287 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 07:42:44.292 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 1087.4031ms
+2025-11-26 07:42:59.278 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=2 - null null
+2025-11-26 07:42:59.307 -03:00 [INF] CORS policy execution successful.
+2025-11-26 07:42:59.309 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 07:42:59.310 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 07:42:59.316 -03:00 [INF] Solicitando episodios. Página: 2
+2025-11-26 07:42:59.318 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 07:42:59.321 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 07:42:59.380 -03:00 [INF] Received HTTP response headers after 56.3477ms - 200
+2025-11-26 07:42:59.384 -03:00 [INF] End processing HTTP request after 65.7358ms - 200
+2025-11-26 07:42:59.427 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 2
+2025-11-26 07:42:59.428 -03:00 [INF] Guardando episodios en caché. Página: 2
+2025-11-26 07:42:59.430 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 07:42:59.463 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 146.6296ms
+2025-11-26 07:42:59.465 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 07:42:59.467 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=2 - 200 null application/json; charset=utf-8 189.5429ms
+2025-11-26 07:43:00.558 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 07:43:00.576 -03:00 [INF] CORS policy execution successful.
+2025-11-26 07:43:00.579 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 07:43:00.588 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 07:43:00.609 -03:00 [INF] Obteniendo episodios desde caché. Página: 1
+2025-11-26 07:43:00.640 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 07:43:00.760 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 152.1542ms
+2025-11-26 07:43:00.768 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 07:43:00.774 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 215.0884ms
+2025-11-26 07:52:15.766 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=2 - null null
+2025-11-26 07:52:15.780 -03:00 [INF] CORS policy execution successful.
+2025-11-26 07:52:15.782 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 07:52:15.784 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 07:52:15.790 -03:00 [INF] Solicitando episodios. Página: 2
+2025-11-26 07:52:15.791 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 07:52:15.797 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 07:52:16.027 -03:00 [INF] Received HTTP response headers after 227.3751ms - 200
+2025-11-26 07:52:16.030 -03:00 [INF] End processing HTTP request after 238.2397ms - 200
+2025-11-26 07:52:16.077 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 2
+2025-11-26 07:52:16.082 -03:00 [INF] Guardando episodios en caché. Página: 2
+2025-11-26 07:52:16.085 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 07:52:16.137 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 348.0882ms
+2025-11-26 07:52:16.142 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 07:52:16.145 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=2 - 200 null application/json; charset=utf-8 378.6157ms
+2025-11-26 07:52:50.520 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes/search?name=The%20Wedding%20Squanchers - null null
+2025-11-26 07:52:50.625 -03:00 [INF] CORS policy execution successful.
+2025-11-26 07:52:50.626 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 07:52:50.628 -03:00 [INF] Route matched with {action = "SearchEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchEpisodes(System.String) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 07:52:50.787 -03:00 [INF] Cargando todas las páginas de episodios desde API externa.
+2025-11-26 07:52:50.803 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 07:52:50.805 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 07:52:50.808 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 07:52:51.000 -03:00 [INF] Received HTTP response headers after 188.9422ms - 200
+2025-11-26 07:52:51.009 -03:00 [INF] End processing HTTP request after 203.4279ms - 200
+2025-11-26 07:52:51.054 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 07:52:51.057 -03:00 [INF] Solicitando episodios. Página: 2
+2025-11-26 07:52:51.059 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 07:52:51.061 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 07:52:51.121 -03:00 [INF] Received HTTP response headers after 58.1279ms - 200
+2025-11-26 07:52:51.127 -03:00 [INF] End processing HTTP request after 67.9235ms - 200
+2025-11-26 07:52:51.145 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 2
+2025-11-26 07:52:51.155 -03:00 [INF] Solicitando episodios. Página: 3
+2025-11-26 07:52:51.158 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=3
+2025-11-26 07:52:51.163 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=3
+2025-11-26 07:52:51.228 -03:00 [INF] Received HTTP response headers after 58.0614ms - 200
+2025-11-26 07:52:51.231 -03:00 [INF] End processing HTTP request after 73.3279ms - 200
+2025-11-26 07:52:51.237 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 3
+2025-11-26 07:52:51.240 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 07:52:51.248 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF) in 614.0037ms
+2025-11-26 07:52:51.257 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 07:52:51.262 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes/search?name=The%20Wedding%20Squanchers - 200 null application/json; charset=utf-8 742.1457ms
+2025-11-26 07:55:38.765 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 07:55:38.786 -03:00 [INF] CORS policy execution successful.
+2025-11-26 07:55:38.789 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 07:55:38.810 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 07:55:38.839 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 07:55:38.842 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 07:55:38.847 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 07:55:39.139 -03:00 [INF] Received HTTP response headers after 278.1702ms - 200
+2025-11-26 07:55:39.147 -03:00 [INF] End processing HTTP request after 304.1421ms - 200
+2025-11-26 07:55:39.185 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 07:55:39.214 -03:00 [INF] Guardando episodios en caché. Página: 1
+2025-11-26 07:55:39.219 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 07:55:39.278 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 439.5324ms
+2025-11-26 07:55:39.313 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 07:55:39.317 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 552.3936ms
+2025-11-26 07:55:54.347 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes/search?name=Total%20Rickall - null null
+2025-11-26 07:55:54.359 -03:00 [INF] CORS policy execution successful.
+2025-11-26 07:55:54.362 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 07:55:54.365 -03:00 [INF] Route matched with {action = "SearchEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchEpisodes(System.String) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 07:55:54.370 -03:00 [INF] Cargando todas las páginas de episodios desde API externa.
+2025-11-26 07:55:54.372 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 07:55:54.374 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 07:55:54.380 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 07:55:54.435 -03:00 [INF] Received HTTP response headers after 52.7379ms - 200
+2025-11-26 07:55:54.438 -03:00 [INF] End processing HTTP request after 63.7388ms - 200
+2025-11-26 07:55:54.486 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 07:55:54.494 -03:00 [INF] Solicitando episodios. Página: 2
+2025-11-26 07:55:54.532 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 07:55:54.564 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 07:55:54.637 -03:00 [INF] Received HTTP response headers after 55.0454ms - 200
+2025-11-26 07:55:54.640 -03:00 [INF] End processing HTTP request after 107.6049ms - 200
+2025-11-26 07:55:54.646 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 2
+2025-11-26 07:55:54.655 -03:00 [INF] Solicitando episodios. Página: 3
+2025-11-26 07:55:54.657 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=3
+2025-11-26 07:55:54.664 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=3
+2025-11-26 07:55:54.743 -03:00 [INF] Received HTTP response headers after 62.1439ms - 200
+2025-11-26 07:55:54.749 -03:00 [INF] End processing HTTP request after 91.4063ms - 200
+2025-11-26 07:55:54.753 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 3
+2025-11-26 07:55:54.760 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 07:55:54.779 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF) in 408.9522ms
+2025-11-26 07:55:54.787 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 07:55:54.791 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes/search?name=Total%20Rickall - 200 null application/json; charset=utf-8 444.1369ms
+2025-11-26 07:56:00.837 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes/search?name=S02E04 - null null
+2025-11-26 07:56:00.865 -03:00 [INF] CORS policy execution successful.
+2025-11-26 07:56:00.872 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 07:56:00.877 -03:00 [INF] Route matched with {action = "SearchEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchEpisodes(System.String) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 07:56:00.893 -03:00 [INF] Obteniendo TODA la lista de episodios desde caché.
+2025-11-26 07:56:00.898 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 07:56:00.906 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF) in 12.9942ms
+2025-11-26 07:56:00.909 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 07:56:00.933 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes/search?name=S02E04 - 200 null application/json; charset=utf-8 96.8402ms
+2025-11-26 07:58:22.287 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 07:58:22.620 -03:00 [INF] CORS policy execution successful.
+2025-11-26 07:58:22.625 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 07:58:22.634 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 07:58:22.646 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 07:58:22.649 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 07:58:22.653 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 07:58:22.956 -03:00 [INF] Received HTTP response headers after 300.3886ms - 200
+2025-11-26 07:58:22.964 -03:00 [INF] End processing HTTP request after 315.4772ms - 200
+2025-11-26 07:58:23.013 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 07:58:23.021 -03:00 [INF] Guardando episodios en caché. Página: 1
+2025-11-26 07:58:23.029 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 07:58:23.061 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 415.5611ms
+2025-11-26 07:58:23.069 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 07:58:23.074 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 787.2983ms
+2025-11-26 07:59:41.352 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 07:59:41.366 -03:00 [INF] CORS policy execution successful.
+2025-11-26 07:59:41.371 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 07:59:41.380 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 07:59:41.386 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 07:59:41.604 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 07:59:41.606 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 07:59:41.785 -03:00 [INF] Received HTTP response headers after 177.2234ms - 200
+2025-11-26 07:59:41.796 -03:00 [INF] End processing HTTP request after 191.5524ms - 200
+2025-11-26 07:59:41.839 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 07:59:41.842 -03:00 [INF] Guardando episodios en caché. Página: 1
+2025-11-26 07:59:41.844 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 07:59:41.851 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 465.0561ms
+2025-11-26 07:59:41.854 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 07:59:41.857 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 504.8394ms
+2025-11-26 07:59:48.800 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=2 - null null
+2025-11-26 07:59:48.811 -03:00 [INF] CORS policy execution successful.
+2025-11-26 07:59:48.817 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 07:59:48.831 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 07:59:48.841 -03:00 [INF] Solicitando episodios. Página: 2
+2025-11-26 07:59:48.853 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 07:59:48.857 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 07:59:48.919 -03:00 [INF] Received HTTP response headers after 57.7141ms - 200
+2025-11-26 07:59:48.920 -03:00 [INF] End processing HTTP request after 67.5405ms - 200
+2025-11-26 07:59:48.972 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 2
+2025-11-26 07:59:48.973 -03:00 [INF] Guardando episodios en caché. Página: 2
+2025-11-26 07:59:48.975 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 07:59:48.979 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 138.3992ms
+2025-11-26 07:59:48.993 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 07:59:48.996 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=2 - 200 null application/json; charset=utf-8 196.2555ms
+2025-11-26 08:00:04.780 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes/search?name=S02E09 - null null
+2025-11-26 08:00:04.808 -03:00 [INF] CORS policy execution successful.
+2025-11-26 08:00:04.812 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 08:00:04.816 -03:00 [INF] Route matched with {action = "SearchEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchEpisodes(System.String) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 08:00:04.830 -03:00 [INF] Cargando todas las páginas de episodios desde API externa.
+2025-11-26 08:00:04.849 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 08:00:04.852 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 08:00:04.855 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 08:00:04.924 -03:00 [INF] Received HTTP response headers after 56.3615ms - 200
+2025-11-26 08:00:04.926 -03:00 [INF] End processing HTTP request after 74.5318ms - 200
+2025-11-26 08:00:04.976 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 08:00:04.978 -03:00 [INF] Solicitando episodios. Página: 2
+2025-11-26 08:00:04.979 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 08:00:04.981 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 08:00:05.049 -03:00 [INF] Received HTTP response headers after 59.6889ms - 200
+2025-11-26 08:00:05.051 -03:00 [INF] End processing HTTP request after 71.8232ms - 200
+2025-11-26 08:00:05.054 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 2
+2025-11-26 08:00:05.071 -03:00 [INF] Solicitando episodios. Página: 3
+2025-11-26 08:00:05.073 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=3
+2025-11-26 08:00:05.085 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=3
+2025-11-26 08:00:05.146 -03:00 [INF] Received HTTP response headers after 57.9802ms - 200
+2025-11-26 08:00:05.148 -03:00 [INF] End processing HTTP request after 74.9437ms - 200
+2025-11-26 08:00:05.150 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 3
+2025-11-26 08:00:05.152 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 08:00:05.155 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF) in 325.5091ms
+2025-11-26 08:00:05.158 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 08:00:05.161 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes/search?name=S02E09 - 200 null application/json; charset=utf-8 381.2317ms
+2025-11-26 08:01:56.696 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 08:01:56.726 -03:00 [INF] CORS policy execution successful.
+2025-11-26 08:01:56.727 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 08:01:56.729 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 08:01:56.738 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 08:01:56.740 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 08:01:56.746 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 08:01:56.979 -03:00 [INF] Received HTTP response headers after 230.9123ms - 200
+2025-11-26 08:01:56.981 -03:00 [INF] End processing HTTP request after 241.6262ms - 200
+2025-11-26 08:01:57.032 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 08:01:57.034 -03:00 [INF] Guardando episodios en caché. Página: 1
+2025-11-26 08:01:57.035 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 08:01:57.039 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 301.2438ms
+2025-11-26 08:01:57.042 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 08:01:57.045 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 349.0966ms
+2025-11-26 08:11:26.903 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes/search?name=S02E09 - null null
+2025-11-26 08:11:26.912 -03:00 [INF] CORS policy execution successful.
+2025-11-26 08:11:26.923 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 08:11:26.939 -03:00 [INF] Route matched with {action = "SearchEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchEpisodes(System.String) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 08:11:27.106 -03:00 [INF] Cargando todas las páginas de episodios desde API externa.
+2025-11-26 08:11:27.108 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 08:11:27.112 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 08:11:27.122 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 08:11:27.383 -03:00 [INF] Received HTTP response headers after 258.5592ms - 200
+2025-11-26 08:11:27.390 -03:00 [INF] End processing HTTP request after 278.6773ms - 200
+2025-11-26 08:11:27.439 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 08:11:27.455 -03:00 [INF] Solicitando episodios. Página: 2
+2025-11-26 08:11:27.457 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 08:11:27.464 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 08:11:27.528 -03:00 [INF] Received HTTP response headers after 59.2707ms - 200
+2025-11-26 08:11:27.542 -03:00 [INF] End processing HTTP request after 85.0194ms - 200
+2025-11-26 08:11:27.546 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 2
+2025-11-26 08:11:27.549 -03:00 [INF] Solicitando episodios. Página: 3
+2025-11-26 08:11:27.563 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=3
+2025-11-26 08:11:27.565 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=3
+2025-11-26 08:11:27.649 -03:00 [INF] Received HTTP response headers after 70.4237ms - 200
+2025-11-26 08:11:27.655 -03:00 [INF] End processing HTTP request after 91.8284ms - 200
+2025-11-26 08:11:27.657 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 3
+2025-11-26 08:11:27.668 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 08:11:27.676 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF) in 728.3424ms
+2025-11-26 08:11:27.687 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 08:11:27.689 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes/search?name=S02E09 - 200 null application/json; charset=utf-8 785.9769ms
+2025-11-26 08:11:32.289 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 08:11:32.293 -03:00 [INF] CORS policy execution successful.
+2025-11-26 08:11:32.294 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 08:11:32.302 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 08:11:32.307 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 08:11:32.309 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 08:11:32.311 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 08:11:32.370 -03:00 [INF] Received HTTP response headers after 57.464ms - 200
+2025-11-26 08:11:32.372 -03:00 [INF] End processing HTTP request after 63.3841ms - 200
+2025-11-26 08:11:32.424 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 08:11:32.430 -03:00 [INF] Guardando episodios en caché. Página: 1
+2025-11-26 08:11:32.431 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 08:11:32.441 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 133.5799ms
+2025-11-26 08:11:32.450 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 08:11:32.452 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 163.2961ms
+2025-11-26 08:18:18.435 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 08:18:18.446 -03:00 [INF] CORS policy execution successful.
+2025-11-26 08:18:18.448 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 08:18:20.458 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 08:18:20.465 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 08:18:20.466 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 08:18:20.469 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 08:18:20.708 -03:00 [INF] Received HTTP response headers after 234.534ms - 200
+2025-11-26 08:18:20.710 -03:00 [INF] End processing HTTP request after 243.3083ms - 200
+2025-11-26 08:18:20.762 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 08:18:20.764 -03:00 [INF] Guardando episodios en caché. Página: 1
+2025-11-26 08:18:20.765 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 08:18:20.772 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 308.2662ms
+2025-11-26 08:18:20.776 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 08:18:20.779 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 2344.1797ms
+2025-11-26 08:18:46.703 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes/search?name=S02E09 - null null
+2025-11-26 08:18:46.784 -03:00 [INF] CORS policy execution successful.
+2025-11-26 08:18:46.985 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 08:18:46.989 -03:00 [INF] Route matched with {action = "SearchEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchEpisodes(System.String) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 08:18:47.024 -03:00 [INF] Cargando todas las páginas de episodios desde API externa.
+2025-11-26 08:18:47.026 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 08:18:47.028 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 08:18:47.035 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 08:18:47.095 -03:00 [INF] Received HTTP response headers after 57.4439ms - 200
+2025-11-26 08:18:47.097 -03:00 [INF] End processing HTTP request after 68.8907ms - 200
+2025-11-26 08:18:47.149 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 08:18:47.152 -03:00 [INF] Solicitando episodios. Página: 2
+2025-11-26 08:18:47.154 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 08:18:47.164 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 08:18:47.225 -03:00 [INF] Received HTTP response headers after 59.086ms - 200
+2025-11-26 08:18:47.226 -03:00 [INF] End processing HTTP request after 72.6464ms - 200
+2025-11-26 08:18:47.228 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 2
+2025-11-26 08:18:47.229 -03:00 [INF] Solicitando episodios. Página: 3
+2025-11-26 08:18:47.230 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=3
+2025-11-26 08:18:47.232 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=3
+2025-11-26 08:18:47.293 -03:00 [INF] Received HTTP response headers after 59.3935ms - 200
+2025-11-26 08:18:47.295 -03:00 [INF] End processing HTTP request after 64.5956ms - 200
+2025-11-26 08:18:47.297 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 3
+2025-11-26 08:18:47.299 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 08:18:47.302 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF) in 278.5097ms
+2025-11-26 08:18:47.309 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 08:18:47.311 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes/search?name=S02E09 - 200 null application/json; charset=utf-8 608.7096ms
+2025-11-26 08:19:21.663 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 08:19:21.680 -03:00 [INF] CORS policy execution successful.
+2025-11-26 08:19:21.687 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 08:19:21.689 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 08:19:21.696 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 08:19:21.698 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 08:19:21.701 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 08:19:22.017 -03:00 [INF] Received HTTP response headers after 311.3161ms - 200
+2025-11-26 08:19:22.021 -03:00 [INF] End processing HTTP request after 323.3236ms - 200
+2025-11-26 08:19:22.050 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 08:19:22.054 -03:00 [INF] Guardando episodios en caché. Página: 1
+2025-11-26 08:19:22.055 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 08:19:22.063 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 367.6034ms
+2025-11-26 08:19:22.068 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 08:19:22.094 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 430.8893ms
+2025-11-26 08:28:27.635 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes/search?name=S02E09 - null null
+2025-11-26 08:28:27.656 -03:00 [INF] CORS policy execution successful.
+2025-11-26 08:28:27.667 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 08:28:27.760 -03:00 [INF] Route matched with {action = "SearchEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchEpisodes(System.String) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 08:28:27.767 -03:00 [INF] Cargando todas las páginas de episodios desde API externa.
+2025-11-26 08:28:27.774 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 08:28:27.776 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 08:28:27.791 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 08:28:28.062 -03:00 [INF] Received HTTP response headers after 267.7132ms - 200
+2025-11-26 08:28:28.069 -03:00 [INF] End processing HTTP request after 293.74ms - 200
+2025-11-26 08:28:28.118 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 08:28:28.126 -03:00 [INF] Solicitando episodios. Página: 2
+2025-11-26 08:28:28.135 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 08:28:28.138 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=2
+2025-11-26 08:28:28.196 -03:00 [INF] Received HTTP response headers after 55.1224ms - 200
+2025-11-26 08:28:28.199 -03:00 [INF] End processing HTTP request after 64.0932ms - 200
+2025-11-26 08:28:28.203 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 2
+2025-11-26 08:28:28.207 -03:00 [INF] Solicitando episodios. Página: 3
+2025-11-26 08:28:28.216 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=3
+2025-11-26 08:28:28.218 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=3
+2025-11-26 08:28:28.290 -03:00 [INF] Received HTTP response headers after 56.1564ms - 200
+2025-11-26 08:28:28.292 -03:00 [INF] End processing HTTP request after 75.7592ms - 200
+2025-11-26 08:28:28.293 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 3
+2025-11-26 08:28:28.296 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 08:28:28.299 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF) in 533.2616ms
+2025-11-26 08:28:28.304 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.SearchEpisodes (Carsales.BFF)'
+2025-11-26 08:28:28.306 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes/search?name=S02E09 - 200 null application/json; charset=utf-8 670.6288ms
+2025-11-26 08:28:31.873 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 08:28:31.881 -03:00 [INF] CORS policy execution successful.
+2025-11-26 08:28:31.883 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 08:28:31.900 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 08:28:31.912 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 08:28:31.914 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 08:28:31.916 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 08:28:31.974 -03:00 [INF] Received HTTP response headers after 53.6638ms - 200
+2025-11-26 08:28:31.976 -03:00 [INF] End processing HTTP request after 62.0826ms - 200
+2025-11-26 08:28:32.025 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 08:28:32.027 -03:00 [INF] Guardando episodios en caché. Página: 1
+2025-11-26 08:28:32.029 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 08:28:32.046 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 134.3299ms
+2025-11-26 08:28:32.058 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 08:28:32.060 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 187.0217ms
+2025-11-26 08:28:50.579 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 08:28:50.587 -03:00 [INF] CORS policy execution successful.
+2025-11-26 08:28:50.589 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 08:28:50.606 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 08:28:50.641 -03:00 [INF] Obteniendo episodios desde caché. Página: 1
+2025-11-26 08:28:50.684 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 08:28:50.852 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 211.4393ms
+2025-11-26 08:28:50.866 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 08:28:50.869 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 289.4687ms
+2025-11-26 08:35:49.389 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 08:35:49.397 -03:00 [INF] CORS policy execution successful.
+2025-11-26 08:35:49.398 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 08:35:49.403 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 08:35:49.408 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 08:35:49.409 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 08:35:49.411 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 08:35:49.654 -03:00 [INF] Received HTTP response headers after 240.8946ms - 200
+2025-11-26 08:35:49.657 -03:00 [INF] End processing HTTP request after 247.5533ms - 200
+2025-11-26 08:35:49.709 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 08:35:49.712 -03:00 [INF] Guardando episodios en caché. Página: 1
+2025-11-26 08:35:49.716 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 08:35:49.723 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 315.312ms
+2025-11-26 08:35:49.726 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 08:35:49.728 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 339.0273ms
+2025-11-26 08:36:11.606 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 08:36:11.703 -03:00 [INF] CORS policy execution successful.
+2025-11-26 08:36:11.750 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 08:36:11.753 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 08:36:11.766 -03:00 [INF] Obteniendo episodios desde caché. Página: 1
+2025-11-26 08:36:11.767 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 08:36:11.795 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 29.1811ms
+2025-11-26 08:36:11.799 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 08:36:11.805 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 198.6262ms
+2025-11-26 08:36:43.489 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7149/api/episodes?page=1 - null null
+2025-11-26 08:36:43.494 -03:00 [INF] CORS policy execution successful.
+2025-11-26 08:36:43.496 -03:00 [INF] Executing endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 08:36:43.498 -03:00 [INF] Route matched with {action = "GetEpisodes", controller = "Episodes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEpisodes(Int32) on controller Carsales.BFF.Controllers.EpisodesController (Carsales.BFF).
+2025-11-26 08:36:43.508 -03:00 [INF] Solicitando episodios. Página: 1
+2025-11-26 08:36:43.525 -03:00 [INF] Start processing HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 08:36:43.527 -03:00 [INF] Sending HTTP request GET https://rickandmortyapi.com/api/episode?page=1
+2025-11-26 08:36:43.868 -03:00 [INF] Received HTTP response headers after 334.1559ms - 200
+2025-11-26 08:36:43.871 -03:00 [INF] End processing HTTP request after 345.7868ms - 200
+2025-11-26 08:36:43.919 -03:00 [INF] Episodios obtenidos correctamente desde Rick and Morty API. Página: 1
+2025-11-26 08:36:43.924 -03:00 [INF] Guardando episodios en caché. Página: 1
+2025-11-26 08:36:43.940 -03:00 [INF] Executing OkObjectResult, writing value of type 'Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs.EpisodeResponseDto'.
+2025-11-26 08:36:43.955 -03:00 [INF] Executed action Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF) in 447.9201ms
+2025-11-26 08:36:43.959 -03:00 [INF] Executed endpoint 'Carsales.BFF.Controllers.EpisodesController.GetEpisodes (Carsales.BFF)'
+2025-11-26 08:36:43.962 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7149/api/episodes?page=1 - 200 null application/json; charset=utf-8 472.8874ms

@@ -1,0 +1,91 @@
+<div class="page-container">
+
+  <!-- HEADER -->
+  <header class="header">
+    <h1 class="title">Listado de Episodios</h1>
+    <p class="subtitle">Explora episodios, filtra por nombre o código.</p>
+  </header>
+
+  <!-- BUSCADOR -->
+  <form (ngSubmit)="onSearch()" class="search-box">
+
+    <div class="search-input-wrapper">
+      <span class="search-icon">
+        <svg width="18" height="18" viewBox="0 0 24 24">
+          <path fill="#5b4aff" d="M21 20l-5.7-5.7a7 7 0 10-1.4 1.4L20 21zM10 16a6 6 0 110-12 6 6 0 010 12z"/>
+        </svg>
+      </span>
+
+      <input
+        type="text"
+        placeholder="Buscar por nombre (ej: Pilot)"
+        [(ngModel)]="searchTerm"
+        name="searchTerm"
+      />
+    </div>
+
+    <button type="submit" class="btn-primary">Buscar</button>
+
+    <button *ngIf="isSearching" type="button" class="btn-clear"
+      (click)="searchTerm=''; onSearch()">
+      Limpiar
+    </button>
+
+  </form>
+
+  <!-- RESUMEN -->
+  <p class="summary">
+    {{ isSearching ? 'Resultados de búsqueda' : 'Listado completo' }} · Episodios: {{ totalCount }}
+  </p>
+
+  <!-- PAGINACIÓN -->
+  <div class="pagination-controls">
+
+    <button class="btn-nav" (click)="goToPrev()" [disabled]="!canGoPrev()">
+      <span>←</span>
+    </button>
+
+    <span class="page-indicator">
+      {{ isSearching ? '1 (búsqueda)' : ('Página ' + currentPage + ' de ' + totalPages) }}
+    </span>
+
+    <button class="btn-nav" (click)="goToNext()" [disabled]="!canGoNext()">
+      <span>→</span>
+    </button>
+
+  </div>
+
+  <!-- GRID -->
+  <ul class="episode-grid">
+
+    <li *ngFor="let ep of episodes" class="episode-card">
+
+      <div class="card-header">
+        <h3>{{ ep.name }}</h3>
+
+        <span class="episode-badge">
+          {{ ep.episode }}
+        </span>
+      </div>
+
+      <p class="air-date">Emitido: {{ ep.air_date }}</p>
+
+      <div *ngIf="ep.characters?.length" class="characters-block">
+        <p class="characters-title">Personajes</p>
+        <ul class="characters-list">
+          <li *ngFor="let ch of ep.characters.slice(0,3)">
+            {{ ch }}
+          </li>
+        </ul>
+      </div>
+
+    </li>
+
+  </ul>
+
+  <!-- SIN RESULTADOS -->
+  <p class="no-results" *ngIf="!loading && !error && episodes.length === 0">
+    No se encontraron episodios para esta búsqueda.
+  </p>
+
+</div>

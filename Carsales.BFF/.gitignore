@@ -1,0 +1,128 @@
+##   .NET / C# IGNORE RULES
+
+
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio cache/options directory
+.vs/
+
+# ASP.NET temp files
+*~ 
+*.tmp
+*.log
+*.vspscc
+*.vssscc
+
+# Auto-generated files
+Generated_Code/
+
+# DotNet tools
+.dotnet/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Publish outputs
+**/publish/
+**/Published/
+
+########################################
+##   ANGULAR / FRONTEND IGNORE RULES
+########################################
+
+# Angular build outputs
+dist/
+tmp/
+temp/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+.pnpm-store/
+
+# Angular specific
+.angular/
+.angular/cache/
+
+# Environment variables (OPCIONAL)
+# Descomenta si usas archivos env reales
+# src/environments/*.ts
+
+##   IDE / EDITOR IGNORE RULES
+
+# Visual Studio / Rider
+.idea/
+*.iml
+
+# VSCode settings (Opcional)
+.vscode/
+.vscode/*
+
+# Except useful VSCode files
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# MacOS files
+.DS_Store
+
+# Windows trash
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+##   GIT / GLOBAL IGNORES
+
+# Logs
+*.log
+
+# Backups
+*.bak
+*.backup
+*~
+*.swp
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+*.lock
+*.pid
+
+# Archives
+*.zip
+*.tar
+*.gz
+*.7z
+
+##   SPECIAL CASES
+
+# Do NOT ignore readmes
+!README.md
+
+# Do NOT ignore docs
+!/docs/
+
+# Do NOT ignore source code (default)
+
+##   END

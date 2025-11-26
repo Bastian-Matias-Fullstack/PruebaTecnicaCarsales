@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/Elementos de la solución/">
+    <File Path=".gitignore" />
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="../Carsales.BFF.Tests/Carsales.BFF.Tests.csproj" Id="93e2c7a4-b8d0-413b-b181-3b8342e58b3b" />
+  <Project Path="Carsales.BFF.csproj" />
+</Solution>
