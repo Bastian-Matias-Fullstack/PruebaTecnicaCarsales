@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ﻿# Prueba Técnica Carsales — BFF + Frontend
 
 Este repositorio contiene la solución completa a la prueba técnica Carsales, compuesta por:
