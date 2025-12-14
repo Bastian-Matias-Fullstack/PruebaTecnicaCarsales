@@ -383,5 +383,5 @@ Buenas prácticas en frontend y backend
 
 Bastián Matías — Fullstack Developer (.NET + Angular)
 📧 Contacto: (bastian.dev.fullstack@gmail.com)
-🔗 LinkedIn: ([tu linkedin](https://www.linkedin.com/in/bastian-espinoza-ubilla-4663a6189/))
+🔗 LinkedIn: (https://www.linkedin.com/in/bastian-espinoza-ubilla-4663a6189/)
 >>>>>>> 800146bac92e56a67ce6802656b7f0b8cf27ff8a
