@@ -4,6 +4,11 @@ import { EpisodesList } from './features/episodes/pages/episodes-list/episodes-l
 export const routes: Routes = [
   {
     path: '',
-    component: EpisodesList
-  }
+    redirectTo: 'episodes',
+    pathMatch: 'full',
+  },
+  {
+    path: 'episodes',
+    component: EpisodesList,
+  },
 ];

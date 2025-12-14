@@ -1,107 +1,99 @@
-import { Component, inject } from '@angular/core';
+import { Component, inject, signal } from '@angular/core';
 import { EpisodesService } from '../../services/episodes';
 import { Episode } from '../../../../core/models/episode';
 import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';  
-
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-episodes-list',
   standalone: true,
-  imports: [CommonModule,
-  FormsModule]   ,    
+  imports: [CommonModule, FormsModule],
   templateUrl: './episodes-list.html',
-styleUrls: ['./episodes-list.scss'],
-
+  styleUrls: ['./episodes-list.scss'],
 })
 export class EpisodesList {
-
   private episodesService = inject(EpisodesService);
 
-  episodes: Episode[] = [];
-  loading = true;
-  error: string | null = null;
+  episodes = signal<Episode[]>([]);
+  loading = signal(true);
+  error = signal<string | null>(null);
 
-  currentPage = 1;
-  totalPages = 1;
-  totalCount = 0;
+  currentPage = signal(1);
+  totalPages = signal(1);
+  totalCount = signal(0);
 
-  searchTerm = '';
-  isSearching = false;
+  searchTerm = signal('');
+  isSearching = signal(false);
 
   constructor() {
     this.loadEpisodes();
   }
 
-loadEpisodes(page: number = 1): void {
-  this.loading = true;
-  this.error = null;
-
-  this.episodesService.getEpisodes(page).subscribe({
-    next: (response) => {
-      this.episodes = response.results;
-
-      this.currentPage = page;
-      this.totalPages = response.info.pages;
-      this.totalCount = response.info.count;
-
-      this.isSearching = false;
-      this.loading = false;
-    },
-    error: () => {
-      this.error = 'Error al obtener los episodios';
-      this.loading = false;
-    }
-  });
+  loadEpisodes(page: number = 1): void {
+    this.loading.set(true);
+    this.error.set(null);
+    this.episodesService.getEpisodes(page).subscribe({
+      next: (response) => {
+        this.episodes.set(response.results);
+        this.currentPage.set(page);
+        this.totalPages.set(response.info.pages);
+        this.totalCount.set(response.info.count);
+        this.isSearching.set(false);
+        this.loading.set(false);
+      },
+      error: () => {
+        this.error.set('No se pudo conectar con el servidor. Intenta nuevamente en unos segundos.');
+        this.loading.set(false);
+      },
+    });
   }
-   //  helpers para los botones
+  // Helpers botones
   canGoPrev(): boolean {
-    return this.currentPage > 1;
+    return this.currentPage() > 1;
   }
 
   canGoNext(): boolean {
-    return this.currentPage < this.totalPages;
+    return this.currentPage() < this.totalPages();
   }
 
   goToPrev(): void {
     if (this.canGoPrev()) {
-      this.loadEpisodes(this.currentPage - 1);
+      this.loadEpisodes(this.currentPage() - 1);
     }
   }
 
   goToNext(): void {
     if (this.canGoNext()) {
-      this.loadEpisodes(this.currentPage + 1);
+      this.loadEpisodes(this.currentPage() + 1);
     }
   }
-   onSearch(): void {
-    const term = this.searchTerm.trim();
 
+  onSearch(): void {
+    const term = this.searchTerm().trim();
+
+    // Si se limpia el campo, volvemos al listado normal
     if (!term) {
-      // Si limpiamos el texto, volvemos al listado normal página 1
-      this.isSearching = false;
+      this.isSearching.set(false);
       this.loadEpisodes(1);
       return;
     }
 
-    this.loading = true;
-    this.error = null;
-    this.isSearching = true;
+    this.loading.set(true);
+    this.error.set(null);
+    this.isSearching.set(true);
 
     this.episodesService.searchEpisodes(term).subscribe({
       next: (response) => {
-        this.episodes = response.results;
-        // En modo búsqueda no usamos paginación del backend (por ahora)
-        this.totalPages = 1;
-        this.currentPage = 1;
-        this.totalCount = response.info?.count ?? response.results.length;
-        this.loading = false;
+        this.episodes.set(response.results);
+        this.totalPages.set(1);
+        this.currentPage.set(1);
+        this.totalCount.set(response.info?.count ?? response.results.length);
+        this.loading.set(false);
       },
       error: () => {
-        this.error = 'Error al buscar episodios';
-        this.loading = false;
-      }
+        this.error.set('Error al buscar episodios');
+        this.loading.set(false);
+      },
     });
   }
 }
-

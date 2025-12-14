@@ -2,15 +2,15 @@ import { Injectable, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { EpisodesResponse } from '../../../core/models/episodes-response';
+import { environment } from '../../../../environments/environment';
 
 @Injectable({
   providedIn: 'root',
 })
 export class EpisodesService {
-
   private http = inject(HttpClient);
 
-  private readonly baseUrl = 'https://localhost:7149/api/episodes';
+  private readonly baseUrl = `${environment.apiBaseUrl}/episodes`;
 
   getEpisodes(page: number = 1): Observable<EpisodesResponse> {
     return this.http.get<EpisodesResponse>(`${this.baseUrl}?page=${page}`);

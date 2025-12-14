@@ -1,165 +1,111 @@
-Carsales – Frontend (Angular 17 + Standalone Components)
+# Carsales Frontend
 
-Este frontend forma parte de la prueba técnica para la posición de Ingeniero de Software .NET + Angular, y consume un backend propio desarrollado en .NET 8 que actúa como puente hacia la API pública de Rick & Morty.
+Este proyecto corresponde al **frontend de la prueba técnica Carsales**.  
+Está desarrollado en **Angular 20** y consume un **BFF en .NET**, encargado de centralizar el acceso a la API externa y desacoplar la lógica del cliente de servicios de terceros.
 
-La aplicación permite:
+El foco principal del frontend es mantener una **estructura clara**, un **manejo de estado simple** y una **experiencia consistente frente a errores o fallas del backend**, priorizando mantenibilidad y legibilidad del código.
 
-Listar episodios
+---
 
-Buscar episodios por nombre o código
+## Tecnologías utilizadas
 
-Paginar resultados
+- Angular 20
+- Standalone Components (sin NgModules)
+- Angular Signals para manejo de estado
+- HttpClient
+- SCSS
+- Node.js / npm
 
-Ver detalles básicos del episodio
+---
 
-Mostrar personajes asociados
+## Estructura del proyecto
 
-El proyecto se desarrolló siguiendo buenas prácticas modernas de Angular, arquitectura basada en componentes y un diseño UI premium estilo glassmorphism lavanda.
+La aplicación está organizada siguiendo una arquitectura basada en **features**, separando responsabilidades de forma explícita y evitando acoplamientos innecesarios.
 
+No se utilizan módulos tradicionales. Todos los componentes son **standalone**, alineados con las recomendaciones actuales del framework y facilitando una configuración más simple y explícita.
 
-Tecnologías Utilizadas
-Área	Tecnologías
-Framework	Angular 17 (Standalone Components)
-Lenguaje	TypeScript
-Estilos	SCSS (Glassmorphism + Dark Lavender UI)
-Comunicación	HttpClient
-Arquitectura	Componentes + Servicios
-Diseño	Responsive, grid moderno, animaciones, efectos glass
+---
 
+## Manejo de estado
 
+El estado de la vista se gestiona utilizando **Angular Signals**, priorizando un manejo de estado simple y predecible en la capa de UI.
 
-Consumo de API
+Se manejan mediante signals los siguientes estados:
 
-El frontend NO consume directamente la API pública.
-En su lugar, se comunica con un backend .NET 8 que:
+- Listado de episodios
+- Estado de carga
+- Mensajes de error
+- Paginación
+- Estado de búsqueda
 
-Actúa como BFF (Backend For Frontend)
+Este enfoque reduce complejidad innecesaria en los componentes y facilita el mantenimiento del código.
 
-Maneja errores
+---
 
-Aplica reglas
+## Comunicación con el backend
 
-Capa de protección para el cliente
+El frontend consume un **BFF desarrollado en .NET** mediante `HttpClient`.
 
-Endpoints consumidos:
+La URL base del backend no está hardcodeada y se define a través de los archivos de entorno:
 
-GET /episodes?page=N
-GET /episodes/search?query=XYZ
+```ts
+environment.apiBaseUrl
+```
 
+Esto permite cambiar el endpoint según el entorno (desarrollo o producción) sin modificar el código de la aplicación.
 
-Arquitectura del Frontend
-✔ Componentes Standalone
+---
 
-No se utiliza ningún módulo (pattern moderno de Angular).
+## Manejo de errores
 
-✔ Servicios inyectados vía DI
+La aplicación contempla escenarios comunes de error, por ejemplo:
 
-EpisodesService es responsable de:
+- Backend no disponible
+- Error en la búsqueda
+- Respuestas sin resultados
 
-Llamar al backend
+En estos casos:
 
-Manejar HttpClient
+- La aplicación no se rompe
+- Se muestra un mensaje claro al usuario
+- El estado visual se mantiene consistente
 
-Retornar estructura tipada
+El objetivo es evitar fallos silenciosos o comportamientos inesperados en la UI.
 
-Manejo básico de errores
+---
 
-✔ Tipado fuerte (TypeScript)
+## Cómo ejecutar el proyecto
 
-El modelo Episode está definido en core/models/episode.ts.
+Desde la carpeta `carsales-frontend` ejecutar:
 
-✔ Separación clara de responsabilidades
+```bash
+npm install
+npm start
+```
 
-episodes-list.html → estructura
+La aplicación quedará disponible en:
 
-episodes-list.scss → diseño fino
+```
+http://localhost:4200
+```
 
-styles.scss → diseño global y tema
+Para un correcto funcionamiento, el backend debe estar levantado o la URL debe estar configurada correctamente en los archivos de entorno.
 
-episodes-list.ts → lógica de paginación, carga y búsqueda
+---
 
-🔎 Funcionalidades del Frontend
-🔥 1. Listado de episodios
+## Formato de código
 
-Carga inicial de todos los episodios paginados.
+El proyecto utiliza **Prettier** para mantener un formato consistente en archivos TypeScript, HTML y SCSS.
 
-🔍 2. Buscador inteligente
+Los avisos reportados por `npm audit` corresponden a dependencias oficiales de Angular y **no afectan el alcance funcional de esta prueba**, por lo que no se aplicaron fixes forzados para evitar romper compatibilidad.
 
-Filtra por nombre o código
+---
 
-Muestra conteo
+## Alcance
 
-Resetea al limpiar
+Este frontend forma parte de una **prueba técnica** y está enfocado en demostrar:
 
-📄 3. Paginación
-
-Botones:
-
-Anterior
-
-Siguiente
-
-Estado dinámico
-
-Modo búsqueda deshabilita paginación del backend
-
-🎨 4. UI/UX Moderno
-
-Implementado con:
-
-Glassmorphism avanzado
-
-Paleta Dark Lavender
-
-Sombras suaves y gradientes
-
-Botones con hover moderno
-
-Tarjetas animadas (fadeInUp)
-
-Búsqueda con ícono
-
-Badges de episodio
-
-Grid fluido responsive
-
-⚠️ 5. Manejo de errores
-
-Cuando ocurre un error en la API:
-
-Se muestra mensaje al usuario
-
-Se deshabilita loading
-
-No se cae la aplicación
-
-🎨 Diseño y Estilos
-🎭 Global (styles.scss)
-
-Fondo moderno con gradientes lavanda y azul
-
-Capas blur estilo VisionOS
-
-Tipografía Inter
-
-Corrección de brillos y contraste
-
-🧊 Componente (episodes-list.scss)
-
-Incluye:
-
-Contenedor glass principal
-
-Buscador con halo dinámico
-
-Paginación con botones translúcidos
-
-Tarjetas vidrio (glass cards)
-
-Efectos en hover
-
-Badges semi-translucidos
-
-Lista de personajes estilizada
-
-Animaciones suaves
+- Organización y estructura del proyecto
+- Uso de features modernas de Angular
+- Buen manejo de estado y errores
+- Claridad, legibilidad y mantenibilidad del código
