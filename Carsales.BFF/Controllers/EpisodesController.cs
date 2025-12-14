@@ -8,13 +8,13 @@ namespace Carsales.BFF.Controllers
     public class EpisodesController : ControllerBase
     {
         private readonly IRickAndMortyService _service;
-
         public EpisodesController(IRickAndMortyService service)
         {
             _service = service;
         }
 
         [HttpGet]
+
         public async Task<IActionResult> GetEpisodes([FromQuery] int page = 1)
         {
             if (page < 1)
@@ -29,7 +29,7 @@ namespace Carsales.BFF.Controllers
         }
 
         [HttpGet("search")]
-        public async Task<IActionResult> SearchEpisodes([FromQuery] string name)
+        public async Task<IActionResult> SearchEpisodes([FromQuery] string? name)
         {
             if (string.IsNullOrWhiteSpace(name))
                 return BadRequest("Debe proporcionar un nombre para buscar.");
@@ -38,8 +38,6 @@ namespace Carsales.BFF.Controllers
 
             return Ok(result);
         }
-
-
 
     }
 }

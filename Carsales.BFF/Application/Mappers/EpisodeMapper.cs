@@ -1,6 +1,5 @@
 ﻿using Carsales.BFF.Domain;
 using Carsales.BFF.Application.DTOs;
-using Carsales.BFF.Application.Dtos;
 
 namespace Carsales.BFF.Application.Mappers
 {
@@ -12,9 +11,8 @@ namespace Carsales.BFF.Application.Mappers
             {
                 Id = dto.Id,
                 Title = dto.Name,                   // transformación del campo
-                AirDate = DateTime.TryParse(dto.Air_Date, out var parsedDate)
-                ? parsedDate
-              : DateTime.MinValue,
+                AirDate = DateTime.TryParse(dto.AirDate, out var parsedDate)
+                ?parsedDate:DateTime.MinValue,
                 Code = dto.Episode,
                 Characters = dto.Characters.ToList()
             };
@@ -25,13 +23,12 @@ namespace Carsales.BFF.Application.Mappers
             {
                 Id = domain.Id,
                 Name = domain.Title,
-                Air_Date = domain.AirDate.ToString("yyyy-MM-dd"),
+                AirDate = domain.AirDate.ToString("yyyy-MM-dd"),
                 Episode = domain.Code,
                 Characters = domain.Characters ?? new List<string>(),
                 Url = "",
                 Created = ""
             };
         }
-
     }
 }

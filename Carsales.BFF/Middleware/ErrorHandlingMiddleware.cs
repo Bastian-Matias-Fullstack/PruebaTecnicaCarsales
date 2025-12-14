@@ -6,12 +6,10 @@ namespace Carsales.BFF.Middleware
     public class ErrorHandlingMiddleware
     {
         private readonly RequestDelegate _next;
-
         public ErrorHandlingMiddleware(RequestDelegate next)
         {
             _next = next;
         }
-
         public async Task InvokeAsync(HttpContext context)
         {
             try
@@ -24,7 +22,6 @@ namespace Carsales.BFF.Middleware
                 await HandleExceptionAsync(context, ex);
             }
         }
-
         private Task HandleExceptionAsync(HttpContext context, Exception ex)
         {
             var response = new
@@ -33,10 +30,8 @@ namespace Carsales.BFF.Middleware
                 message = "Ha ocurrido un error interno.",
                 detail = ex.Message
             };
-
             context.Response.ContentType = "application/json";
             context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
-
             return context.Response.WriteAsync(JsonSerializer.Serialize(response));
         }
     }

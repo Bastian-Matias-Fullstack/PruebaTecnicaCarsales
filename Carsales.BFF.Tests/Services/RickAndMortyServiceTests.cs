@@ -1,7 +1,4 @@
-﻿using Carsales.BFF.Application.Dtos;
-using Carsales.BFF.Application.DTOs;
-using Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs;
-using Carsales.BFF.Application.Interfaces;
+﻿using Carsales.BFF.Application.DTOs;
 using Carsales.BFF.Application.Services;
 using Carsales.BFF.Infrastructure.External;
 using FluentAssertions;
@@ -22,24 +19,24 @@ public class RickAndMortyServiceTests
         mockCache
             .Setup(m => m.CreateEntry(It.IsAny<object>()))
             .Returns(mockEntry.Object);
-
         return mockCache;
     }
 
+    //SearchEpisodesAsync devuelva episodios correctamente cuando la API devuelve datos
     [Fact]
     public async Task GetEpisodesAsync_ShouldReturnEpisodes_WhenApiReturnsData()
     {
         // Arrange
         var mockApiClient = new Mock<IRickAndMortyApiClient>();
         var mockCache = CreateMemoryCacheMock();
-
         var fakeResponse = new EpisodeResponseDto
         {
             Info = new InfoDto { Count = 1, Pages = 1 },
             Results = new List<EpisodeDto>
-                {
-                    new EpisodeDto { Id = 1, Name = "Pilot" }
-                }
+            {
+              new EpisodeDto { Id = 1, Name = "Pilot" }
+            }
+
         };
 
         mockApiClient
@@ -56,13 +53,13 @@ public class RickAndMortyServiceTests
         result!.Results.Should().HaveCount(1);
     }
 
+    //SearchEpisodesAsync devuelva episodios correctamente cuando la API devuelve datos.
     [Fact]
     public async Task SearchEpisodesAsync_ShouldReturnEpisodes_WhenApiReturnsData()
     {
         // Arrange
         var mockApiClient = new Mock<IRickAndMortyApiClient>();
         var mockCache = CreateMemoryCacheMock();
-
         var fakeResponse = new EpisodeResponseDto
         {
             Info = new InfoDto { Count = 1, Pages = 1 },
@@ -83,9 +80,10 @@ public class RickAndMortyServiceTests
 
         // Assert
         result.Should().NotBeNull();
-        result.Results.Should().HaveCount(1); // ← FIX AQUÍ
+        result.Results.Should().HaveCount(1);
     }
 
+    //validar que NO se llame al ApiClient si el dato ya está en memoria.
     [Fact]
     public async Task GetEpisodesAsync_ShouldUseCache_WhenDataIsCached()
     {

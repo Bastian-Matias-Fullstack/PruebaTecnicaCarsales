@@ -1,4 +1,4 @@
-﻿namespace Carsales.BFF.Infraestructure.External
+﻿namespace Carsales.BFF.Infrastructure.External
 {
     public class RickAndMortyApiOptions
     {

@@ -1,218 +1,155 @@
-﻿# 🚀 Prueba Técnica – Carsales  
-Backend (.NET 8) + Frontend (Angular 17)
+﻿# Carsales – Prueba Técnica Fullstack (.NET + Angular)
 
-Este proyecto corresponde a la prueba técnica para la posición de **Ingeniero de Software .NET + Angular**, donde se solicita implementar:
-
-- Un **Backend For Frontend (BFF)** en .NET 8  
-- Un **Frontend moderno** en Angular 17  
-- Consumo indirecto de la API pública de Rick & Morty  
-- Funcionalidades de listado, búsqueda y paginación  
+Este repositorio contiene la solución a la prueba técnica de Carsales, implementada mediante un **Backend for Frontend (BFF)** en .NET y un **frontend en Angular**. El objetivo principal es desacoplar el frontend de la API externa (Rick & Morty), manejar errores de forma controlada y presentar una solución clara, mantenible y coherente.
 
 ---
 
-# 📦 Estructura del Repositorio
+## Arquitectura General
 
-```
-/
-├── backend/        -> API .NET 8 (BFF)
-│     └── README.md
-│
-├── frontend/       -> Angular 17 (Standalone)
-│     └── README.md
-│
-├── docs/           -> Documentación adicional (opcional)
-│
-└── README.md       -> Este archivo
-```
+La solución se divide en dos partes bien definidas:
 
----
+* **Backend (BFF)**
 
-# 🧩 Descripción General
+  * API desarrollada en .NET.
+  * Consume la API pública de Rick & Morty.
+  * Expone endpoints propios adaptados al frontend.
+  * Centraliza validaciones, manejo de errores y paginación.
 
-El proyecto consiste en consumir datos de episodios desde la API pública de *Rick and Morty*, pero **NO desde el frontend**, sino mediante un **Backend intermedio (BFF)** que:
+* **Frontend**
 
-- Normaliza respuestas  
-- Maneja errores de la API externa  
-- Expone endpoints propios  
-- Evita exponer la API real al frontend  
+  * Aplicación Angular basada en componentes standalone.
+  * Arquitectura orientada a *features*.
+  * Consume exclusivamente el BFF, sin dependencia directa de la API externa.
 
-El frontend consume este backend y presenta los datos:
-
-- Listado paginado  
-- Búsqueda por nombre o código  
-- Botón para limpiar búsqueda  
-- Manejo de errores  
-- UI moderna con Glass + Dark Lavender UI  
+Esta aproximación permite mayor control, trazabilidad y flexibilidad ante cambios futuros.
 
 ---
 
-# ⚙️ Tecnologías Utilizadas
+## Stack Tecnológico
 
-### 🟣 Backend – .NET 8
-- ASP.NET Core 8 Web API  
-- Clean Architecture  
-- HttpClientFactory  
-- Inyección de dependencias  
-- Manejo unificado de errores  
-- Pruebas unitarias  
-- Swagger (opcional)
+### Backend
 
-### 🔵 Frontend – Angular 17
-- Standalone Components  
-- HttpClient  
-- Servicios tipados  
-- SCSS modular  
-- Animaciones suaves  
-- Glass Dark Lavender UI  
+* .NET 8
+* ASP.NET Core Web API
+* HttpClient
+* Swagger / OpenAPI
+
+### Frontend
+
+* Angular 20
+* Standalone Components
+* Angular Signals (manejo de estado local)
+* RxJS
+* SCSS
 
 ---
 
-# 📘 Cómo Ejecutar el Proyecto Completo
-
-## 1️⃣ Clonar el repositorio
+## Estructura del Proyecto (Frontend)
 
 ```
-git clone <URL_REPO>
-cd carsales-project
+carsales-frontend/
+└── src/app
+    ├── core
+    │   ├── models
+    │   └── services
+    ├── features
+    │   └── episodes
+    │       ├── pages
+    │       │   └── episodes-list
+    │       └── services
+    └── shared
 ```
+
+La aplicación está organizada por *features*, donde cada funcionalidad agrupa sus páginas, servicios y modelos asociados. Las **pages** representan rutas y orquestan la UI, mientras que los servicios encapsulan la lógica de acceso a datos.
 
 ---
 
-# 🟣 2️⃣ Levantar Backend (.NET 8)
+## Cómo Ejecutar el Proyecto
 
-```
-cd backend
-dotnet restore
-dotnet watch run
-```
+### Backend
 
-El backend arrancará en:
+1. Abrir la solución en Visual Studio.
+2. Ejecutar el proyecto `Carsales.BFF`.
+3. Acceder a Swagger en:
 
-```
-http://localhost:5000
-```
+   ```
+   https://localhost:7149/swagger
+   ```
 
-### Endpoints expuestos:
+### Frontend
 
-| Endpoint | Descripción |
-|---------|-------------|
-| `GET /episodes?page=N` | Lista episodios paginados |
-| `GET /episodes/search?query=XYZ` | Busca episodios |
+1. Ir a la carpeta del frontend:
 
----
+   ```bash
+   cd carsales-frontend
+   ```
+2. Instalar dependencias:
 
-# 🔵 3️⃣ Levantar Frontend (Angular 17)
+   ```bash
+   npm install
+   ```
+3. Ejecutar la aplicación:
 
-```
-cd frontend
-npm install
-ng serve -o
-```
+   ```bash
+   npm start
+   ```
+4. Abrir en el navegador:
 
-La aplicación abrirá en:
-
-```
-http://localhost:4200
-```
+   ```
+   http://localhost:4200/episodes
+   ```
 
 ---
 
-# 🔍 Funcionalidades del Frontend
+## Configuración de Environments
 
-✔ Listado completo de episodios  
-✔ Búsqueda por nombre o código (Pilot, S01E05…)  
-✔ Paginación dinámica  
-✔ Botón “Limpiar búsqueda”  
-✔ Manejo de errores  
-✔ Diseño Dark Lavender Glass  
-✔ Responsive Desktop/Mobile  
+El frontend utiliza archivos de *environment* para evitar URLs hardcodeadas:
 
----
+* `environment.ts`: entorno de desarrollo local, apuntando al BFF en `https://localhost:7149/api`.
+* `environment.prod.ts`: entorno productivo (placeholder), pensado para un backend desplegado.
 
-# 🧪 Pruebas sugeridas
-
-### ✔ Buscar “Pilot”  
-### ✔ Buscar “S01E01”  
-### ✔ Buscar algo inexistente (“aaaaaa”)  
-Debe mostrar *“No se encontraron episodios”*.
-
-### ✔ Probar paginación  
-- Flecha siguiente  
-- Flecha anterior  
-- Desactivación correcta  
-
-### ✔ Desconectar backend  
-Debe mostrar error sin romper la UI.
+Esto permite separar claramente configuración y lógica de negocio.
 
 ---
 
-# 🏗 Arquitectura (Resumen)
+## Endpoints del Backend
 
-## Backend
-```
-Aplicacion/
-Dominio/
-Infraestructura/
-API/
-Tests/
-```
+* **GET /api/Episodios?page={page}**
+  Obtiene la lista paginada de episodios.
 
-✔ Dominio sin dependencias  
-✔ Aplicación define contratos  
-✔ Infraestructura implementa integración externa  
-✔ API expone endpoints BFF  
-✔ Tests cubren flujo principal  
-
-## Frontend
-```
-core/models/
-features/episodes/
-   pages/episodes-list/
-   services/episodes.service.ts
-styles.scss
-```
-
-✔ Angular Standalone  
-✔ Servicios limpios  
-✔ Componentes separados  
-✔ SCSS modular y moderno  
+* **GET /api/Episodios/búsqueda?nombre={texto}**
+  Busca episodios por nombre.
 
 ---
 
-# 📄 Documentación Adicional
+## Manejo de Errores
 
-- `/backend/README.md` — Explicación técnica del BFF  
-- `/frontend/README.md` — Explicación de vistas, servicios y diseño  
-- `/docs/` — Opcional para capturas, diagramas o checklist  
+* Si la API externa falla, el BFF responde con **HTTP 502 (Bad Gateway)**.
+* El frontend muestra mensajes de error amigables sin romper la UI.
+* La aplicación puede recuperarse automáticamente cuando el backend vuelve a estar disponible, sin necesidad de recargar la página.
 
----
-
-# ✔ Checklist Final (Antes de entregar)
-
-- [x] Backend funciona correctamente  
-- [x] Frontend consume el backend  
-- [x] Búsqueda y paginación completas  
-- [x] Manejo de errores correcto  
-- [x] Diseño final aplicado  
-- [x] Repositorio limpio (`node_modules`, `bin`, `obj` ignorados)  
-- [x] Documentación clara  
-- [x] README general presente  
+Este flujo fue validado de forma end-to-end (Swagger → Frontend).
 
 ---
 
-# 🙌 Notas para el Evaluador
+## Decisiones Técnicas
 
-Este proyecto fue construido priorizando:
-
-- Buenas prácticas de Angular y .NET  
-- Arquitectura clara y mantenible  
-- Código limpio y ordenado  
-- Manejo adecuado de errores  
-- UI moderna agradable para el usuario  
-- Separación estricta entre frontend ↔ backend  
-
-Listo para revisión.
+* Se utilizó un patrón **BFF** para desacoplar el frontend de la API externa.
+* Se implementó una arquitectura por *features* en Angular para mejorar escalabilidad y mantenibilidad.
+* Se usaron **Angular Signals** para el manejo de estado local (loading, error, paginación), alineándose con prácticas modernas del framework.
+* Se priorizó simplicidad y claridad por sobre sobre-ingeniería.
 
 ---
 
-# 🏁 FIN DEL README
+## Validaciones Realizadas
+
+* Pruebas manuales de paginación y búsqueda desde Swagger.
+* Pruebas de consumo del BFF desde el frontend.
+* Simulación de caída de la API externa y validación de respuestas 502.
+* Verificación de recuperación automática del frontend tras restablecer el backend.
+
+---
+
+## Notas Finales
+
+El foco de esta solución está en la **claridad arquitectónica**, el **manejo correcto de errores** y la **consistencia entre backend y frontend**, manteniendo un alcance acorde a una prueba técnica de nivel mid-senior.

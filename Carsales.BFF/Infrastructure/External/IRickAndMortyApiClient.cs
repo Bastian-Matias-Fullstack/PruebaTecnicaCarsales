@@ -1,5 +1,4 @@
 ﻿using Carsales.BFF.Application.DTOs;
-using Carsales.BFF.Application.DTOs.Carsales.BFF.Application.DTOs;
 
 namespace Carsales.BFF.Infrastructure.External
 {
