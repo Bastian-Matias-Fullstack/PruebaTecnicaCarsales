@@ -7,7 +7,7 @@ var rickAndMortyConfig = builder.Configuration.GetSection("RickAndMortyApi");
 builder.Services.Configure<RickAndMortyApiOptions>(rickAndMortyConfig);
 builder.Services.AddScoped<IRickAndMortyService, RickAndMortyService>();
 
-// 3. HTTP CLIENT (Adapter Pattern)
+//HTTP CLIENT (Adapter Pattern)
 builder.Services.AddHttpClient<IRickAndMortyApiClient, RickAndMortyApiClient>(client =>
 {
     client.BaseAddress = new Uri(rickAndMortyConfig["BaseUrl"]!);
