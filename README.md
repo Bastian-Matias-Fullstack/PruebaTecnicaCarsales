@@ -173,7 +173,7 @@ Tecnologías principales:
 
 Backend: .NET 8 + Arquitectura Limpia + BFF
 
-Frontend: Angular 18 (standalone) + SCSS + Arquitectura por Features
+Frontend: Angular 20 (standalone) + SCSS + Arquitectura por Features
 
 Testing: xUnit + Moq + FluentAssertions
 
