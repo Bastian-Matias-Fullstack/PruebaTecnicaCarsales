@@ -196,7 +196,7 @@ Incluye manejo de errores, arquitectura limpia, componentes reutilizables, pagin
 │
 ├── 📁 Carsales.BFF.Tests       → Pruebas unitarias (xUnit)
 │
-└── 📁 carsales-frontend        → Frontend Angular 18
+└── 📁 carsales-frontend        → Frontend Angular 20
     ├── core/models/            → Tipado de datos
     ├── features/episodes/      → Página principal y servicios
     ├── styles.scss             → Estilos globales
@@ -235,7 +235,7 @@ Cliente HTTP tipado (HttpClientFactory)
 
 DTOs, Mappers y Arquitectura Limpia
 
-2️⃣ Frontend – Angular 18 Standalone
+2️⃣ Frontend – Angular 20 Standalone
 Requisitos
 
 Node 18+
@@ -366,7 +366,7 @@ ng serve -o
 
 Este proyecto demuestra experiencia sólida en:
 
-Desarrollo fullstack moderno (.NET 8 + Angular 18)
+Desarrollo fullstack moderno (.NET 8 + Angular 20)
 
 Arquitecturas limpias y escalables
 
